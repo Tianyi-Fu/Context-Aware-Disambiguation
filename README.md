@@ -7,7 +7,7 @@
 ![Compositional Hierarchy](docs/figures/compositional_hierarchy.png)
 
 ## Quick Setup
-
+**Requirements**: Python 3.8+
 1. Install dependencies:
 
 ```bash
