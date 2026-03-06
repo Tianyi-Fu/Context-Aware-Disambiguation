@@ -3,7 +3,7 @@
 ## Figures
 
 ![Motivating Example](docs/figures/fig_motivating.png)
-
+![Framework](docs/figures/framework_2.png)
 ![Compositional Hierarchy](docs/figures/compositional_hierarchy.png)
 
 ## Quick Setup
