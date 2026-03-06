@@ -1,0 +1,89 @@
+-holds(changed(bookshelf), 0).
+-holds(changed(fridge), 0).
+-holds(changed(microwave), 0).
+-holds(closed(bookshelf), 0).
+-holds(heated(chicken), 0).
+-holds(heated(coffee), 0).
+-holds(heated(cutlets), 0).
+-holds(heated(espresso), 0).
+-holds(heated(milk), 0).
+-holds(open(fridge), 0).
+-holds(open(microwave), 0).
+-holds(switched_on(microwave), 0).
+-holds(switched_on(table_lamp), 0).
+holds(closed(fridge), 0).
+holds(closed(microwave), 0).
+holds(furniture_location(audio_amplifier, bedroom), 0).
+holds(furniture_location(bookshelf, living_room), 0).
+holds(furniture_location(coffee_table, bedroom), 0).
+holds(furniture_location(desk, bedroom), 0).
+holds(furniture_location(desk_1, living_room), 0).
+holds(furniture_location(dish_bowl, living_room), 0).
+holds(furniture_location(fridge, kitchen), 0).
+holds(furniture_location(kitchen_counter, kitchen), 0).
+holds(furniture_location(kitchen_table, kitchen), 0).
+holds(furniture_location(microwave, kitchen), 0).
+holds(furniture_location(sofa, living_room), 0).
+holds(furniture_location(table_lamp, living_room), 0).
+holds(furniture_location(tv_stand, living_room), 0).
+holds(in(agent1, living_room), 0).
+holds(inside(bookshelf, classic_novel), 0).
+holds(inside(bookshelf, computer_science_textbook), 0).
+holds(inside(bookshelf, fantasy_novel), 0).
+holds(inside(bookshelf, folder), 0).
+holds(inside(bookshelf, graphic_memoir), 0).
+holds(inside(bookshelf, notes), 0).
+holds(inside(bookshelf, physics_textbook), 0).
+holds(inside(bookshelf, superhero_comic), 0).
+holds(location(alcohol, bedroom, coffee_table), 0).
+holds(location(apple, bedroom, coffee_table), 0).
+holds(location(bananas, living_room, dish_bowl), 0).
+holds(location(cellphone, bedroom, coffee_table), 0).
+holds(location(cereal, kitchen, kitchen_table), 0).
+holds(location(chicken, kitchen, kitchen_counter), 0).
+holds(location(classic_novel, living_room, bookshelf), 0).
+holds(location(coffee, bedroom, desk), 0).
+holds(location(computer_science_textbook, living_room, bookshelf), 0).
+holds(location(crackers, living_room, tv_stand), 0).
+holds(location(cup, bedroom, desk), 0).
+holds(location(cupcake, bedroom, desk), 0).
+holds(location(cutlets, kitchen, kitchen_counter), 0).
+holds(location(espresso, bedroom, coffee_table), 0).
+holds(location(fantasy_novel, living_room, bookshelf), 0).
+holds(location(folder, living_room, bookshelf), 0).
+holds(location(graphic_memoir, living_room, bookshelf), 0).
+holds(location(juice, bedroom, desk), 0).
+holds(location(magazine, bedroom, audio_amplifier), 0).
+holds(location(milk, kitchen, kitchen_table), 0).
+holds(location(mug, bedroom, coffee_table), 0).
+holds(location(notes, living_room, bookshelf), 0).
+holds(location(peach, bedroom, coffee_table), 0).
+holds(location(physics_textbook, living_room, bookshelf), 0).
+holds(location(plate, kitchen, kitchen_counter), 0).
+holds(location(pound_cake, kitchen, kitchen_table), 0).
+holds(location(sci_fi_novel, bedroom, desk), 0).
+holds(location(superhero_comic, living_room, bookshelf), 0).
+holds(location(water_glass, living_room, desk_1), 0).
+holds(on(audio_amplifier, magazine), 0).
+holds(on(coffee_table, alcohol), 0).
+holds(on(coffee_table, apple), 0).
+holds(on(coffee_table, cellphone), 0).
+holds(on(coffee_table, espresso), 0).
+holds(on(coffee_table, mug), 0).
+holds(on(coffee_table, peach), 0).
+holds(on(desk, coffee), 0).
+holds(on(desk, cup), 0).
+holds(on(desk, cupcake), 0).
+holds(on(desk, juice), 0).
+holds(on(desk, sci_fi_novel), 0).
+holds(on(desk_1, water_glass), 0).
+holds(on(dish_bowl, bananas), 0).
+holds(on(kitchen_counter, chicken), 0).
+holds(on(kitchen_counter, cutlets), 0).
+holds(on(kitchen_counter, plate), 0).
+holds(on(kitchen_table, cereal), 0).
+holds(on(kitchen_table, milk), 0).
+holds(on(kitchen_table, pound_cake), 0).
+holds(on(tv_stand, crackers), 0).
+holds(open(bookshelf), 0).
+holds(user_location(living_room), 0).

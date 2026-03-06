@@ -1,0 +1,433 @@
+{
+  "objects": [
+    {
+      "object_id": "alcohol",
+      "object_type": "ColdDrink",
+      "sort_path": [
+        "ColdDrink",
+        "Item"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "juice",
+      "object_type": "ColdDrink",
+      "sort_path": [
+        "ColdDrink",
+        "Item"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "apple",
+      "object_type": "Fruit",
+      "sort_path": [
+        "Fruit",
+        "Item"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "bananas",
+      "object_type": "Fruit",
+      "sort_path": [
+        "Fruit",
+        "Item"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "cellphone",
+      "object_type": "StudyItem",
+      "sort_path": [
+        "Item",
+        "StudyItem"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "cereal",
+      "object_type": "Food",
+      "sort_path": [
+        "Food",
+        "Item",
+        "Snack"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "chicken",
+      "object_type": "HotFood",
+      "sort_path": [
+        "HotFood",
+        "Item",
+        "Meal"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "classic_novel",
+      "object_type": "Novel",
+      "sort_path": [
+        "Item",
+        "Novel"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "coffee",
+      "object_type": "HotDrink",
+      "sort_path": [
+        "HotDrink",
+        "Item"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "computer_science_textbook",
+      "object_type": "Textbook",
+      "sort_path": [
+        "Item",
+        "Textbook"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "crackers",
+      "object_type": "Food",
+      "sort_path": [
+        "Food",
+        "Item",
+        "Snack"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "cup",
+      "object_type": "Drinkware",
+      "sort_path": [
+        "Drinkware",
+        "Item"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "cupcake",
+      "object_type": "Food",
+      "sort_path": [
+        "Food",
+        "Item",
+        "Snack"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "cutlets",
+      "object_type": "HotFood",
+      "sort_path": [
+        "HotFood",
+        "Item",
+        "Meal"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "espresso",
+      "object_type": "HotDrink",
+      "sort_path": [
+        "HotDrink",
+        "Item"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "fantasy_novel",
+      "object_type": "Novel",
+      "sort_path": [
+        "Item",
+        "Novel"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "folder",
+      "object_type": "StudyItem",
+      "sort_path": [
+        "Item",
+        "StudyItem"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "graphic_memoir",
+      "object_type": "Comic",
+      "sort_path": [
+        "Comic",
+        "Item"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "magazine",
+      "object_type": "StudyItem",
+      "sort_path": [
+        "Item",
+        "StudyItem"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "milk",
+      "object_type": "HotDrink",
+      "sort_path": [
+        "HotDrink",
+        "Item"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "mug",
+      "object_type": "Drinkware",
+      "sort_path": [
+        "Drinkware",
+        "Item"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "notes",
+      "object_type": "StudyItem",
+      "sort_path": [
+        "Item",
+        "StudyItem"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "peach",
+      "object_type": "Fruit",
+      "sort_path": [
+        "Fruit",
+        "Item"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "physics_textbook",
+      "object_type": "Textbook",
+      "sort_path": [
+        "Item",
+        "Textbook"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "plate",
+      "object_type": "Tableware",
+      "sort_path": [
+        "Item",
+        "Tableware"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "pound_cake",
+      "object_type": "Food",
+      "sort_path": [
+        "Food",
+        "Item",
+        "Snack"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "sci_fi_novel",
+      "object_type": "Novel",
+      "sort_path": [
+        "Item",
+        "Novel"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "superhero_comic",
+      "object_type": "Comic",
+      "sort_path": [
+        "Comic",
+        "Item"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "water_glass",
+      "object_type": "Drinkware",
+      "sort_path": [
+        "Drinkware",
+        "Item"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "fridge",
+      "object_type": "InsideFurniture",
+      "sort_path": [
+        "Furniture",
+        "InsideFurniture"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "microwave",
+      "object_type": "InsideFurniture",
+      "sort_path": [
+        "Furniture",
+        "InsideFurniture",
+        "MicrowaveFurniture",
+        "SwitchFurniture"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "sofa",
+      "object_type": "OnFurniture",
+      "sort_path": [
+        "Furniture",
+        "OnFurniture"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "table_lamp",
+      "object_type": "Light",
+      "sort_path": [
+        "Furniture",
+        "Light",
+        "SwitchFurniture"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "audio_amplifier",
+      "object_type": "OnFurniture",
+      "sort_path": [
+        "Furniture",
+        "OnFurniture"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "desk_1",
+      "object_type": "OnFurniture",
+      "sort_path": [
+        "Furniture",
+        "OnFurniture"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "dish_bowl",
+      "object_type": "OnFurniture",
+      "sort_path": [
+        "Furniture",
+        "OnFurniture"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "tv_stand",
+      "object_type": "OnFurniture",
+      "sort_path": [
+        "Furniture",
+        "OnFurniture"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "kitchen_counter",
+      "object_type": "OnFurniture",
+      "sort_path": [
+        "Furniture",
+        "OnFurniture"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "kitchen_table",
+      "object_type": "OnFurniture",
+      "sort_path": [
+        "Furniture",
+        "OnFurniture"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "desk",
+      "object_type": "OnFurniture",
+      "sort_path": [
+        "Furniture",
+        "OnFurniture"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "coffee_table",
+      "object_type": "OnFurniture",
+      "sort_path": [
+        "Furniture",
+        "OnFurniture"
+      ],
+      "affordances": [],
+      "notes": ""
+    },
+    {
+      "object_id": "bookshelf",
+      "object_type": "InsideFurniture",
+      "sort_path": [
+        "Furniture",
+        "InsideFurniture"
+      ],
+      "affordances": [],
+      "notes": ""
+    }
+  ]
+}

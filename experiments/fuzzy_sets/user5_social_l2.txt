@@ -1,0 +1,220 @@
+[  % 1
+on(tv_stand, cellphone) | put the cellphone on the tv stand
+on(sofa, magazine) | put the item on the sofa
+on(coffee_table, water_glass) | put the item on the coffee_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, cellphone) | give the item to the user
+has(user, magazine) | give the item to the user
+has(user, crackers) | give the food to the user
+has(user, water_glass) | give the item to the user
+]
+
+[  % 2
+on(coffee_table, cup) | put the cup on the coffee table
+on(kitchen_table, mug) | put the item on the kitchen_table
+on(kitchen_table, juice) | put the drink on the kitchen_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, juice) | give the drink to the user
+has(user, cup) | give the item to the user
+has(user, mug) | give the item to the user
+on(sofa, magazine) | put the item on the sofa
+]
+
+[  % 3
+on(kitchen_table, alcohol) | put the alcohol on the kitchen table
+on(coffee_table, water_glass) | put the item on the coffee_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, alcohol) | give the drink to the user
+has(user, water_glass) | give the item to the user
+has(user, crackers) | give the food to the user
+on(tv_stand, magazine) | put the item on the tv_stand
+has(user, magazine) | give the item to the user
+]
+
+[  % 4
+switched_on(table_lamp) | switch on the table lamp
+on(sofa, superhero_comic) | put the book on the sofa
+on(coffee_table, water_glass) | put the item on the coffee_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, superhero_comic) | give the book to the user
+has(user, water_glass) | give the item to the user
+has(user, crackers) | give the food to the user
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 5
+on(tv_stand, cellphone) | put the cellphone on the tv stand
+on(sofa, magazine) | put the item on the sofa
+on(coffee_table, water_glass) | put the item on the coffee_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, cellphone) | give the item to the user
+has(user, magazine) | give the item to the user
+has(user, crackers) | give the food to the user
+has(user, water_glass) | give the item to the user
+]
+
+[  % 6
+on(coffee_table, cup) | put the cup on the coffee table
+on(kitchen_table, mug) | put the item on the kitchen_table
+on(kitchen_table, juice) | put the drink on the kitchen_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, juice) | give the drink to the user
+has(user, cup) | give the item to the user
+has(user, mug) | give the item to the user
+on(sofa, magazine) | put the item on the sofa
+]
+
+[  % 7
+on(kitchen_table, alcohol) | put the alcohol on the kitchen table
+on(coffee_table, water_glass) | put the item on the coffee_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, alcohol) | give the drink to the user
+has(user, water_glass) | give the item to the user
+has(user, crackers) | give the food to the user
+on(tv_stand, magazine) | put the item on the tv_stand
+has(user, magazine) | give the item to the user
+]
+
+[  % 8
+switched_on(table_lamp) | switch on the table lamp
+on(sofa, superhero_comic) | put the book on the sofa
+on(coffee_table, water_glass) | put the item on the coffee_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, superhero_comic) | give the book to the user
+has(user, water_glass) | give the item to the user
+has(user, crackers) | give the food to the user
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 9
+on(tv_stand, cellphone) | put the cellphone on the tv stand
+on(sofa, magazine) | put the item on the sofa
+on(coffee_table, water_glass) | put the item on the coffee_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, cellphone) | give the item to the user
+has(user, magazine) | give the item to the user
+has(user, crackers) | give the food to the user
+has(user, water_glass) | give the item to the user
+]
+
+[  % 10
+on(coffee_table, cup) | put the cup on the coffee table
+on(kitchen_table, mug) | put the item on the kitchen_table
+on(kitchen_table, juice) | put the drink on the kitchen_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, juice) | give the drink to the user
+has(user, cup) | give the item to the user
+has(user, mug) | give the item to the user
+on(sofa, magazine) | put the item on the sofa
+]
+
+[  % 11
+on(kitchen_table, alcohol) | put the alcohol on the kitchen table
+on(coffee_table, water_glass) | put the item on the coffee_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, alcohol) | give the drink to the user
+has(user, water_glass) | give the item to the user
+has(user, crackers) | give the food to the user
+on(tv_stand, magazine) | put the item on the tv_stand
+has(user, magazine) | give the item to the user
+]
+
+[  % 12
+switched_on(table_lamp) | switch on the table lamp
+on(sofa, superhero_comic) | put the book on the sofa
+on(coffee_table, water_glass) | put the item on the coffee_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, superhero_comic) | give the book to the user
+has(user, water_glass) | give the item to the user
+has(user, crackers) | give the food to the user
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 13
+on(tv_stand, cellphone) | put the cellphone on the tv stand
+on(sofa, magazine) | put the item on the sofa
+on(coffee_table, water_glass) | put the item on the coffee_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, cellphone) | give the item to the user
+has(user, magazine) | give the item to the user
+has(user, crackers) | give the food to the user
+has(user, water_glass) | give the item to the user
+]
+
+[  % 14
+on(coffee_table, cup) | put the cup on the coffee table
+on(kitchen_table, mug) | put the item on the kitchen_table
+on(kitchen_table, juice) | put the drink on the kitchen_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, juice) | give the drink to the user
+has(user, cup) | give the item to the user
+has(user, mug) | give the item to the user
+on(sofa, magazine) | put the item on the sofa
+]
+
+[  % 15
+on(kitchen_table, alcohol) | put the alcohol on the kitchen table
+on(coffee_table, water_glass) | put the item on the coffee_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, alcohol) | give the drink to the user
+has(user, water_glass) | give the item to the user
+has(user, crackers) | give the food to the user
+on(tv_stand, magazine) | put the item on the tv_stand
+has(user, magazine) | give the item to the user
+]
+
+[  % 16
+switched_on(table_lamp) | switch on the table lamp
+on(sofa, superhero_comic) | put the book on the sofa
+on(coffee_table, water_glass) | put the item on the coffee_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, superhero_comic) | give the book to the user
+has(user, water_glass) | give the item to the user
+has(user, crackers) | give the food to the user
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 17
+on(tv_stand, cellphone) | put the cellphone on the tv stand
+on(sofa, magazine) | put the item on the sofa
+on(coffee_table, water_glass) | put the item on the coffee_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, cellphone) | give the item to the user
+has(user, magazine) | give the item to the user
+has(user, crackers) | give the food to the user
+has(user, water_glass) | give the item to the user
+]
+
+[  % 18
+on(coffee_table, cup) | put the cup on the coffee table
+on(kitchen_table, mug) | put the item on the kitchen_table
+on(kitchen_table, juice) | put the drink on the kitchen_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, juice) | give the drink to the user
+has(user, cup) | give the item to the user
+has(user, mug) | give the item to the user
+on(sofa, magazine) | put the item on the sofa
+]
+
+[  % 19
+on(kitchen_table, alcohol) | put the alcohol on the kitchen table
+on(coffee_table, water_glass) | put the item on the coffee_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, alcohol) | give the drink to the user
+has(user, water_glass) | give the item to the user
+has(user, crackers) | give the food to the user
+on(tv_stand, magazine) | put the item on the tv_stand
+has(user, magazine) | give the item to the user
+]
+
+[  % 20
+switched_on(table_lamp) | switch on the table lamp
+on(sofa, superhero_comic) | put the book on the sofa
+on(coffee_table, water_glass) | put the item on the coffee_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, superhero_comic) | give the book to the user
+has(user, water_glass) | give the item to the user
+has(user, crackers) | give the food to the user
+switched_off(table_lamp) | switch off the switch_furniture
+]
+

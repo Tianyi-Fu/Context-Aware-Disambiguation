@@ -1,0 +1,1331 @@
+{
+  "alcohol": {
+    "object_id": "alcohol",
+    "object_type": "ColdDrink",
+    "l0": {
+      "structure": [
+        "liquid_body",
+        "single_phase",
+        "homogeneous_mixture",
+        "free_surface",
+        "container_required"
+      ],
+      "shape": [
+        "fluid_form",
+        "amorphous_shape",
+        "conforms_to_container",
+        "no_fixed_orientation",
+        "free_surface"
+      ],
+      "physical": [
+        "liquid",
+        "pourable",
+        "low_viscosity",
+        "aqueous",
+        "water_based_solution",
+        "aromatic",
+        "perishable",
+        "alcoholic"
+      ]
+    }
+  },
+  "juice": {
+    "object_id": "juice",
+    "object_type": "ColdDrink",
+    "l0": {
+      "structure": [
+        "liquid_body",
+        "homogeneous_mixture",
+        "single_phase",
+        "free_surface",
+        "container_required",
+        "packaged"
+      ],
+      "shape": [
+        "fluid_form",
+        "amorphous_shape",
+        "conforms_to_container",
+        "no_fixed_orientation",
+        "free_surface"
+      ],
+      "physical": [
+        "liquid",
+        "aqueous",
+        "water_based_solution",
+        "low_viscosity",
+        "pourable",
+        "opaque",
+        "perishable",
+        "fruit_derived"
+      ]
+    }
+  },
+  "apple": {
+    "object_id": "apple",
+    "object_type": "Fruit",
+    "l0": {
+      "structure": [
+        "single_piece",
+        "skin_layer",
+        "flesh_interior",
+        "stem_end",
+        "surface_layer"
+      ],
+      "shape": [
+        "round_profile",
+        "rounded_contours"
+      ],
+      "physical": [
+        "handheld_size",
+        "crisp_texture",
+        "juicy",
+        "moist",
+        "opaque",
+        "perishable",
+        "smooth_surface",
+        "lightweight"
+      ]
+    }
+  },
+  "bananas": {
+    "object_id": "bananas",
+    "object_type": "Fruit",
+    "l0": {
+      "structure": [
+        "single_piece",
+        "skin_layer",
+        "flesh_interior",
+        "stem_end"
+      ],
+      "shape": [
+        "elongated",
+        "rounded_contours",
+        "curved_sidewalls"
+      ],
+      "physical": [
+        "soft",
+        "moist",
+        "juicy",
+        "perishable",
+        "handheld_size",
+        "lightweight",
+        "opaque",
+        "aromatic"
+      ]
+    }
+  },
+  "cellphone": {
+    "object_id": "cellphone",
+    "object_type": "StudyItem",
+    "l0": {
+      "structure": [
+        "single_piece",
+        "single_piece_body",
+        "button",
+        "surface_layer"
+      ],
+      "shape": [
+        "rectangular",
+        "rectangular_prism_body",
+        "flat_front_face",
+        "flat_profile",
+        "thin_profile",
+        "rounded_contours",
+        "portrait_orientation"
+      ],
+      "physical": [
+        "electrical_powered",
+        "handheld_size",
+        "metal_or_plastic_body",
+        "hard_material",
+        "hard_surface",
+        "smooth_surface",
+        "nonporous_surface",
+        "opaque"
+      ]
+    }
+  },
+  "cereal": {
+    "object_id": "cereal",
+    "object_type": "Food",
+    "l0": {
+      "structure": [
+        "multiple_pieces",
+        "packaged",
+        "container_required"
+      ],
+      "shape": [
+        "irregular_shape",
+        "no_fixed_orientation",
+        "conforms_to_container"
+      ],
+      "physical": [
+        "dry",
+        "crisp_texture",
+        "brittle",
+        "cooked",
+        "perishable",
+        "pourable",
+        "lightweight",
+        "opaque"
+      ]
+    }
+  },
+  "chicken": {
+    "object_id": "chicken",
+    "object_type": "HotFood",
+    "l0": {
+      "structure": [
+        "skin_layer",
+        "flesh_interior",
+        "single_piece",
+        "surface_layer"
+      ],
+      "shape": [
+        "irregular_shape",
+        "rounded_contours",
+        "no_fixed_orientation",
+        "elongated"
+      ],
+      "physical": [
+        "cooked",
+        "hot_temperature",
+        "juicy",
+        "moist",
+        "aromatic",
+        "perishable",
+        "opaque",
+        "soft"
+      ]
+    }
+  },
+  "classic_novel": {
+    "object_id": "classic_novel",
+    "object_type": "Novel",
+    "l0": {
+      "structure": [
+        "front_cover",
+        "back_cover",
+        "spine",
+        "binding",
+        "bound_pages",
+        "pages",
+        "page_edges",
+        "page_surfaces"
+      ],
+      "shape": [
+        "rectangular",
+        "rectangular_prism",
+        "flat_profile",
+        "thin_profile",
+        "right_angle_edges",
+        "portrait_orientation",
+        "stack_form"
+      ],
+      "physical": [
+        "paper_material",
+        "paper_pages",
+        "cardboard_cover",
+        "printed_text",
+        "printed_ink",
+        "opaque",
+        "dry",
+        "rigid"
+      ]
+    }
+  },
+  "coffee": {
+    "object_id": "coffee",
+    "object_type": "HotDrink",
+    "l0": {
+      "structure": [
+        "container_required",
+        "liquid_body",
+        "free_surface",
+        "homogeneous_mixture",
+        "single_phase"
+      ],
+      "shape": [
+        "fluid_form",
+        "conforms_to_container",
+        "no_fixed_orientation",
+        "free_surface"
+      ],
+      "physical": [
+        "liquid",
+        "aqueous",
+        "water_based_solution",
+        "low_viscosity",
+        "pourable",
+        "hot_temperature",
+        "aromatic",
+        "caffeinated"
+      ]
+    }
+  },
+  "computer_science_textbook": {
+    "object_id": "computer_science_textbook",
+    "object_type": "Textbook",
+    "l0": {
+      "structure": [
+        "front_cover",
+        "back_cover",
+        "spine",
+        "binding",
+        "pages",
+        "bound_pages",
+        "page_surfaces",
+        "page_edges"
+      ],
+      "shape": [
+        "rectangular",
+        "rectangular_prism",
+        "flat_profile",
+        "thin_profile",
+        "right_angle_edges",
+        "straight_edges",
+        "portrait_orientation",
+        "stack_form"
+      ],
+      "physical": [
+        "paper_material",
+        "paper_pages",
+        "cardboard_cover",
+        "printed_text",
+        "printed_ink",
+        "opaque",
+        "dry",
+        "rigid"
+      ]
+    }
+  },
+  "crackers": {
+    "object_id": "crackers",
+    "object_type": "Food",
+    "l0": {
+      "structure": [
+        "multiple_pieces",
+        "packaged",
+        "single_phase"
+      ],
+      "shape": [
+        "flat_profile",
+        "thin_profile",
+        "rectangular",
+        "irregular_shape"
+      ],
+      "physical": [
+        "cooked",
+        "dry",
+        "brittle",
+        "crisp_texture",
+        "hard_surface",
+        "opaque",
+        "perishable",
+        "lightweight"
+      ]
+    }
+  },
+  "cup": {
+    "object_id": "cup",
+    "object_type": "Drinkware",
+    "l0": {
+      "structure": [
+        "open_top",
+        "enclosed_cavity",
+        "concave_interior",
+        "c_shaped_handle",
+        "base",
+        "stable_base",
+        "single_piece"
+      ],
+      "shape": [
+        "cylindrical_body",
+        "cylindrical_profile",
+        "circular_rim",
+        "circular_opening",
+        "circular_base",
+        "curved_sidewalls",
+        "round_profile",
+        "vertical_orientation"
+      ],
+      "physical": [
+        "handheld_size",
+        "rigid",
+        "hard_material",
+        "hard_surface",
+        "smooth_surface",
+        "nonporous_surface",
+        "heat_resistant",
+        "moderate_weight"
+      ]
+    }
+  },
+  "cupcake": {
+    "object_id": "cupcake",
+    "object_type": "Food",
+    "l0": {
+      "structure": [
+        "single_piece",
+        "surface_layer",
+        "homogeneous_mixture",
+        "stable_base",
+        "packaged"
+      ],
+      "shape": [
+        "circular_base",
+        "round_profile",
+        "curved_sidewalls",
+        "low_height",
+        "rounded_contours"
+      ],
+      "physical": [
+        "cooked",
+        "soft",
+        "moist",
+        "aromatic",
+        "perishable",
+        "handheld_size",
+        "lightweight",
+        "opaque"
+      ]
+    }
+  },
+  "cutlets": {
+    "object_id": "cutlets",
+    "object_type": "HotFood",
+    "l0": {
+      "structure": [
+        "multiple_pieces",
+        "surface_layer",
+        "flesh_interior"
+      ],
+      "shape": [
+        "flat_profile",
+        "irregular_shape",
+        "rounded_contours",
+        "no_fixed_orientation",
+        "low_height"
+      ],
+      "physical": [
+        "cooked",
+        "hot_temperature",
+        "crisp_texture",
+        "juicy",
+        "aromatic",
+        "perishable",
+        "opaque"
+      ]
+    }
+  },
+  "espresso": {
+    "object_id": "espresso",
+    "object_type": "HotDrink",
+    "l0": {
+      "structure": [
+        "container_required",
+        "liquid_body",
+        "homogeneous_mixture",
+        "single_phase",
+        "free_surface"
+      ],
+      "shape": [
+        "fluid_form",
+        "conforms_to_container",
+        "no_fixed_orientation",
+        "free_surface"
+      ],
+      "physical": [
+        "liquid",
+        "aqueous",
+        "water_based_solution",
+        "pourable",
+        "low_viscosity",
+        "hot_temperature",
+        "aromatic",
+        "caffeinated"
+      ]
+    }
+  },
+  "fantasy_novel": {
+    "object_id": "fantasy_novel",
+    "object_type": "Novel",
+    "l0": {
+      "structure": [
+        "front_cover",
+        "back_cover",
+        "spine",
+        "binding",
+        "bound_pages",
+        "pages",
+        "page_edges",
+        "page_surfaces"
+      ],
+      "shape": [
+        "rectangular",
+        "rectangular_prism",
+        "flat_profile",
+        "thin_profile",
+        "portrait_orientation",
+        "straight_edges",
+        "right_angle_edges",
+        "stack_form"
+      ],
+      "physical": [
+        "paper_material",
+        "paper_pages",
+        "cardboard_cover",
+        "printed_text",
+        "printed_ink",
+        "opaque",
+        "dry",
+        "flexible_pages"
+      ]
+    }
+  },
+  "folder": {
+    "object_id": "folder",
+    "object_type": "StudyItem",
+    "l0": {
+      "structure": [
+        "single_piece",
+        "front_cover",
+        "back_cover",
+        "surface_layer"
+      ],
+      "shape": [
+        "rectangular",
+        "flat_profile",
+        "thin_profile",
+        "straight_edges",
+        "right_angle_edges",
+        "portrait_orientation"
+      ],
+      "physical": [
+        "opaque",
+        "rigid",
+        "lightweight",
+        "dry",
+        "smooth_surface",
+        "wear_resistant"
+      ]
+    }
+  },
+  "graphic_memoir": {
+    "object_id": "graphic_memoir",
+    "object_type": "Comic",
+    "l0": {
+      "structure": [
+        "front_cover",
+        "back_cover",
+        "binding",
+        "spine",
+        "bound_pages",
+        "pages",
+        "page_edges",
+        "page_surfaces"
+      ],
+      "shape": [
+        "rectangular",
+        "flat_profile",
+        "thin_profile",
+        "right_angle_edges",
+        "straight_edges",
+        "portrait_orientation",
+        "stack_form"
+      ],
+      "physical": [
+        "paper_material",
+        "paper_pages",
+        "cardboard_cover",
+        "flexible_pages",
+        "printed_text",
+        "printed_ink",
+        "opaque",
+        "handheld_size"
+      ]
+    }
+  },
+  "magazine": {
+    "object_id": "magazine",
+    "object_type": "StudyItem",
+    "l0": {
+      "structure": [
+        "front_cover",
+        "back_cover",
+        "binding",
+        "spine",
+        "pages",
+        "bound_pages",
+        "page_edges",
+        "page_surfaces"
+      ],
+      "shape": [
+        "rectangular",
+        "flat_profile",
+        "thin_profile",
+        "portrait_orientation",
+        "straight_edges",
+        "right_angle_edges",
+        "stack_form"
+      ],
+      "physical": [
+        "paper_material",
+        "paper_pages",
+        "printed_text",
+        "printed_ink",
+        "flexible_pages",
+        "lightweight",
+        "dry",
+        "opaque"
+      ]
+    }
+  },
+  "milk": {
+    "object_id": "milk",
+    "object_type": "HotDrink",
+    "l0": {
+      "structure": [
+        "container_required",
+        "liquid_body",
+        "free_surface",
+        "homogeneous_mixture",
+        "single_phase"
+      ],
+      "shape": [
+        "fluid_form",
+        "conforms_to_container",
+        "amorphous_shape",
+        "no_fixed_orientation",
+        "free_surface"
+      ],
+      "physical": [
+        "liquid",
+        "pourable",
+        "low_viscosity",
+        "opaque",
+        "aqueous",
+        "water_based_solution",
+        "perishable",
+        "dairy_based"
+      ]
+    }
+  },
+  "mug": {
+    "object_id": "mug",
+    "object_type": "Drinkware",
+    "l0": {
+      "structure": [
+        "single_piece",
+        "enclosed_cavity",
+        "open_top",
+        "concave_interior",
+        "c_shaped_handle",
+        "base",
+        "stable_base",
+        "freestanding"
+      ],
+      "shape": [
+        "cylindrical_body",
+        "cylindrical_profile",
+        "curved_sidewalls",
+        "circular_base",
+        "circular_opening",
+        "circular_rim",
+        "round_profile",
+        "vertical_orientation"
+      ],
+      "physical": [
+        "handheld_size",
+        "rigid",
+        "hard_material",
+        "hard_surface",
+        "nonporous_surface",
+        "smooth_surface",
+        "heat_resistant",
+        "moderate_weight"
+      ]
+    }
+  },
+  "notes": {
+    "object_id": "notes",
+    "object_type": "StudyItem",
+    "l0": {
+      "structure": [
+        "pages",
+        "stacked_sheets",
+        "page_surfaces",
+        "page_edges",
+        "multiple_pieces"
+      ],
+      "shape": [
+        "rectangular",
+        "flat_profile",
+        "thin_profile",
+        "portrait_orientation",
+        "stack_form",
+        "straight_edges"
+      ],
+      "physical": [
+        "paper_material",
+        "paper_pages",
+        "printed_text",
+        "printed_ink",
+        "lightweight",
+        "dry",
+        "opaque",
+        "flexible_pages"
+      ]
+    }
+  },
+  "peach": {
+    "object_id": "peach",
+    "object_type": "Fruit",
+    "l0": {
+      "structure": [
+        "single_piece",
+        "skin_layer",
+        "flesh_interior",
+        "stem_end",
+        "surface_layer"
+      ],
+      "shape": [
+        "rounded_contours",
+        "round_profile",
+        "no_fixed_orientation"
+      ],
+      "physical": [
+        "juicy",
+        "moist",
+        "aromatic",
+        "soft",
+        "handheld_size",
+        "perishable",
+        "opaque",
+        "lightweight"
+      ]
+    }
+  },
+  "physics_textbook": {
+    "object_id": "physics_textbook",
+    "object_type": "Textbook",
+    "l0": {
+      "structure": [
+        "front_cover",
+        "back_cover",
+        "spine",
+        "binding",
+        "bound_pages",
+        "pages",
+        "page_surfaces",
+        "page_edges"
+      ],
+      "shape": [
+        "rectangular",
+        "rectangular_prism",
+        "flat_profile",
+        "thin_profile",
+        "right_angle_edges",
+        "straight_edges",
+        "portrait_orientation",
+        "boxy_form"
+      ],
+      "physical": [
+        "paper_material",
+        "paper_pages",
+        "cardboard_cover",
+        "printed_text",
+        "printed_ink",
+        "dry",
+        "opaque",
+        "rigid"
+      ]
+    }
+  },
+  "plate": {
+    "object_id": "plate",
+    "object_type": "Tableware",
+    "l0": {
+      "structure": [
+        "single_piece",
+        "single_piece_body",
+        "concave_interior",
+        "stable_base",
+        "freestanding"
+      ],
+      "shape": [
+        "round_profile",
+        "circular_rim",
+        "flat_profile",
+        "low_height",
+        "wide_body",
+        "horizontal_orientation"
+      ],
+      "physical": [
+        "hard_material",
+        "hard_surface",
+        "rigid",
+        "smooth_surface",
+        "nonporous_surface",
+        "heat_resistant",
+        "wear_resistant",
+        "opaque"
+      ]
+    }
+  },
+  "pound_cake": {
+    "object_id": "pound_cake",
+    "object_type": "Food",
+    "l0": {
+      "structure": [
+        "single_piece",
+        "homogeneous_mixture",
+        "surface_layer",
+        "packaged"
+      ],
+      "shape": [
+        "rectangular_prism_body",
+        "elongated",
+        "rounded_contours",
+        "flat_top_surface",
+        "horizontal_orientation"
+      ],
+      "physical": [
+        "cooked",
+        "perishable",
+        "soft",
+        "aromatic",
+        "opaque",
+        "moderate_weight"
+      ]
+    }
+  },
+  "sci_fi_novel": {
+    "object_id": "sci_fi_novel",
+    "object_type": "Novel",
+    "l0": {
+      "structure": [
+        "front_cover",
+        "back_cover",
+        "spine",
+        "binding",
+        "bound_pages",
+        "pages",
+        "page_edges",
+        "page_surfaces"
+      ],
+      "shape": [
+        "rectangular",
+        "rectangular_prism_body",
+        "thin_profile",
+        "flat_profile",
+        "portrait_orientation",
+        "straight_edges",
+        "right_angle_edges"
+      ],
+      "physical": [
+        "paper_material",
+        "paper_pages",
+        "cardboard_cover",
+        "printed_text",
+        "printed_ink",
+        "flexible_pages",
+        "lightweight",
+        "dry"
+      ]
+    }
+  },
+  "superhero_comic": {
+    "object_id": "superhero_comic",
+    "object_type": "Comic",
+    "l0": {
+      "structure": [
+        "front_cover",
+        "back_cover",
+        "binding",
+        "spine",
+        "pages",
+        "bound_pages",
+        "page_surfaces",
+        "page_edges"
+      ],
+      "shape": [
+        "rectangular",
+        "flat_profile",
+        "thin_profile",
+        "portrait_orientation",
+        "straight_edges",
+        "right_angle_edges"
+      ],
+      "physical": [
+        "paper_material",
+        "paper_pages",
+        "cardboard_cover",
+        "printed_ink",
+        "printed_text",
+        "flexible_pages",
+        "lightweight",
+        "opaque"
+      ]
+    }
+  },
+  "water_glass": {
+    "object_id": "water_glass",
+    "object_type": "Drinkware",
+    "l0": {
+      "structure": [
+        "open_top",
+        "enclosed_cavity",
+        "concave_interior",
+        "single_piece",
+        "stable_base",
+        "freestanding"
+      ],
+      "shape": [
+        "cylindrical_body",
+        "cylindrical_profile",
+        "circular_rim",
+        "circular_opening",
+        "circular_base",
+        "vertical_orientation",
+        "curved_sidewalls",
+        "round_profile"
+      ],
+      "physical": [
+        "hard_material",
+        "hard_surface",
+        "rigid",
+        "nonporous_surface",
+        "smooth_surface",
+        "brittle",
+        "handheld_size"
+      ]
+    }
+  },
+  "fridge": {
+    "object_id": "fridge",
+    "object_type": "InsideFurniture",
+    "l0": {
+      "structure": [
+        "c_shaped_handle",
+        "enclosed_cavity",
+        "concave_interior",
+        "power_cord",
+        "stable_base",
+        "single_piece_body"
+      ],
+      "shape": [
+        "boxy_form",
+        "rectangular_prism_body",
+        "flat_front_face",
+        "flat_top_surface",
+        "right_angle_edges",
+        "vertical_orientation",
+        "wide_body"
+      ],
+      "physical": [
+        "electrical_powered",
+        "mains_powered",
+        "floor_standing",
+        "medium_to_large_size",
+        "rigid",
+        "hard_surface",
+        "nonporous_surface",
+        "opaque"
+      ]
+    }
+  },
+  "microwave": {
+    "object_id": "microwave",
+    "object_type": "InsideFurniture",
+    "l0": {
+      "structure": [
+        "enclosed_cavity",
+        "button",
+        "power_cord",
+        "stable_base",
+        "single_piece_body"
+      ],
+      "shape": [
+        "boxy_form",
+        "rectangular_prism_body",
+        "flat_front_face",
+        "flat_top_surface",
+        "right_angle_edges",
+        "horizontal_orientation",
+        "wide_body"
+      ],
+      "physical": [
+        "electrical_powered",
+        "mains_powered",
+        "metal_or_plastic_body",
+        "hard_surface",
+        "rigid",
+        "nonporous_surface",
+        "heat_resistant",
+        "opaque"
+      ]
+    }
+  },
+  "sofa": {
+    "object_id": "sofa",
+    "object_type": "OnFurniture",
+    "l0": {
+      "structure": [
+        "multiple_pieces",
+        "support_frame",
+        "support_legs",
+        "underside_frame",
+        "stable_base",
+        "surface_layer"
+      ],
+      "shape": [
+        "boxy_form",
+        "rectangular_prism_body",
+        "wide_body",
+        "elongated",
+        "horizontal_orientation",
+        "low_height",
+        "rounded_contours"
+      ],
+      "physical": [
+        "medium_to_large_size",
+        "floor_standing",
+        "soft",
+        "moderate_weight",
+        "opaque",
+        "wear_resistant",
+        "rigid",
+        "hard_surface"
+      ]
+    }
+  },
+  "table_lamp": {
+    "object_id": "table_lamp",
+    "object_type": "light",
+    "l0": {
+      "structure": [
+        "base",
+        "stable_base",
+        "support_frame",
+        "multiple_pieces",
+        "power_cord",
+        "button"
+      ],
+      "shape": [
+        "vertical_orientation",
+        "cylindrical_profile",
+        "circular_base",
+        "rounded_contours",
+        "low_height"
+      ],
+      "physical": [
+        "electrical_powered",
+        "mains_powered",
+        "hard_material",
+        "rigid",
+        "smooth_surface",
+        "nonporous_surface",
+        "opaque",
+        "moderate_weight"
+      ]
+    }
+  },
+  "audio_amplifier": {
+    "object_id": "audio_amplifier",
+    "object_type": "OnFurniture",
+    "l0": {
+      "structure": [
+        "single_piece_body",
+        "enclosed_cavity",
+        "button",
+        "power_cord",
+        "stable_base",
+        "freestanding",
+        "support_frame"
+      ],
+      "shape": [
+        "boxy_form",
+        "rectangular_prism_body",
+        "flat_front_face",
+        "flat_top_surface",
+        "right_angle_edges",
+        "horizontal_orientation",
+        "wide_body",
+        "low_height"
+      ],
+      "physical": [
+        "electrical_powered",
+        "mains_powered",
+        "metal_or_plastic_body",
+        "hard_surface",
+        "rigid",
+        "opaque",
+        "nonporous_surface",
+        "moderate_weight"
+      ]
+    }
+  },
+  "desk_1": {
+    "object_id": "desk_1",
+    "object_type": "OnFurniture",
+    "l0": {
+      "structure": [
+        "freestanding",
+        "stable_base",
+        "support_frame",
+        "support_legs",
+        "underside_frame",
+        "single_piece_body"
+      ],
+      "shape": [
+        "rectangular",
+        "rectangular_prism_body",
+        "flat_top_surface",
+        "horizontal_orientation",
+        "right_angle_edges",
+        "wide_body",
+        "low_height",
+        "boxy_form"
+      ],
+      "physical": [
+        "hard_material",
+        "hard_surface",
+        "rigid",
+        "medium_to_large_size",
+        "moderate_weight",
+        "floor_standing",
+        "wear_resistant",
+        "opaque"
+      ]
+    }
+  },
+  "dish_bowl": {
+    "object_id": "dish_bowl",
+    "object_type": "OnFurniture",
+    "l0": {
+      "structure": [
+        "single_piece",
+        "open_top",
+        "concave_interior",
+        "stable_base",
+        "support_frame"
+      ],
+      "shape": [
+        "circular_rim",
+        "circular_opening",
+        "curved_sidewalls",
+        "round_profile",
+        "wide_body",
+        "low_height"
+      ],
+      "physical": [
+        "rigid",
+        "hard_material",
+        "hard_surface",
+        "smooth_surface",
+        "nonporous_surface",
+        "heat_resistant",
+        "wear_resistant",
+        "opaque"
+      ]
+    }
+  },
+  "tv_stand": {
+    "object_id": "tv_stand",
+    "object_type": "OnFurniture",
+    "l0": {
+      "structure": [
+        "freestanding",
+        "stable_base",
+        "support_frame",
+        "support_legs",
+        "multiple_pieces",
+        "underside_frame"
+      ],
+      "shape": [
+        "boxy_form",
+        "rectangular_prism_body",
+        "rectangular",
+        "flat_top_surface",
+        "horizontal_orientation",
+        "low_height",
+        "wide_body",
+        "right_angle_edges"
+      ],
+      "physical": [
+        "floor_standing",
+        "rigid",
+        "hard_material",
+        "hard_surface",
+        "medium_to_large_size",
+        "moderate_weight",
+        "wear_resistant",
+        "opaque"
+      ]
+    }
+  },
+  "kitchen_counter": {
+    "object_id": "kitchen_counter",
+    "object_type": "OnFurniture",
+    "l0": {
+      "structure": [
+        "support_frame",
+        "stable_base",
+        "surface_layer",
+        "single_piece_body"
+      ],
+      "shape": [
+        "rectangular",
+        "rectangular_prism_body",
+        "flat_top_surface",
+        "horizontal_orientation",
+        "right_angle_edges",
+        "wide_body",
+        "low_height"
+      ],
+      "physical": [
+        "hard_material",
+        "hard_surface",
+        "rigid",
+        "medium_to_large_size",
+        "smooth_surface",
+        "wear_resistant",
+        "heat_resistant",
+        "nonporous_surface"
+      ]
+    }
+  },
+  "kitchen_table": {
+    "object_id": "kitchen_table",
+    "object_type": "OnFurniture",
+    "l0": {
+      "structure": [
+        "support_legs",
+        "support_frame",
+        "underside_frame",
+        "stable_base",
+        "multiple_pieces",
+        "freestanding"
+      ],
+      "shape": [
+        "flat_top_surface",
+        "rectangular",
+        "horizontal_orientation",
+        "low_height",
+        "right_angle_edges",
+        "straight_edges",
+        "wide_body"
+      ],
+      "physical": [
+        "hard_material",
+        "hard_surface",
+        "rigid",
+        "medium_to_large_size",
+        "floor_standing",
+        "wear_resistant",
+        "smooth_surface",
+        "moderate_weight"
+      ]
+    }
+  },
+  "desk": {
+    "object_id": "desk",
+    "object_type": "OnFurniture",
+    "l0": {
+      "structure": [
+        "freestanding",
+        "support_frame",
+        "support_legs",
+        "underside_frame",
+        "stable_base",
+        "single_piece_body"
+      ],
+      "shape": [
+        "rectangular",
+        "rectangular_prism_body",
+        "flat_top_surface",
+        "horizontal_orientation",
+        "right_angle_edges",
+        "straight_edges",
+        "wide_body",
+        "low_height"
+      ],
+      "physical": [
+        "floor_standing",
+        "medium_to_large_size",
+        "hard_material",
+        "hard_surface",
+        "rigid",
+        "opaque",
+        "wear_resistant",
+        "moderate_weight"
+      ]
+    }
+  },
+  "coffee_table": {
+    "object_id": "coffee_table",
+    "object_type": "OnFurniture",
+    "l0": {
+      "structure": [
+        "freestanding",
+        "stable_base",
+        "support_frame",
+        "support_legs",
+        "underside_frame",
+        "single_piece_body"
+      ],
+      "shape": [
+        "rectangular",
+        "rectangular_prism_body",
+        "flat_top_surface",
+        "horizontal_orientation",
+        "low_height",
+        "right_angle_edges",
+        "wide_body"
+      ],
+      "physical": [
+        "hard_material",
+        "hard_surface",
+        "rigid",
+        "medium_to_large_size",
+        "moderate_weight",
+        "wear_resistant",
+        "floor_standing",
+        "opaque"
+      ]
+    }
+  },
+  "bookshelf": {
+    "object_id": "bookshelf",
+    "object_type": "InsideFurniture",
+    "l0": {
+      "structure": [
+        "support_frame",
+        "support_legs",
+        "stable_base",
+        "multiple_pieces",
+        "freestanding",
+        "enclosed_cavity"
+      ],
+      "shape": [
+        "rectangular_prism_body",
+        "boxy_form",
+        "vertical_orientation",
+        "flat_front_face",
+        "right_angle_edges",
+        "straight_edges",
+        "wide_body"
+      ],
+      "physical": [
+        "rigid",
+        "hard_material",
+        "hard_surface",
+        "opaque",
+        "medium_to_large_size",
+        "floor_standing",
+        "wear_resistant"
+      ]
+    }
+  }
+}

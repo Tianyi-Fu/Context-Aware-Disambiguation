@@ -1,0 +1,219 @@
+[  % 1  User4 Scholar 1
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, classic_novel)        | put the classic novel on the sofa
+on(tv_stand, magazine)         | put the magazine on the tv stand
+on(desk_1, magazine)           | put the magazine on desk 1
+on(kitchen_table, water_glass) | put the water glass on the kitchen table
+has(user, classic_novel)       | give the classic novel to the user
+has(user, water_glass)         | give the water glass to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 2  User4 Scholar 2
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, computer_science_textbook) | put the computer science textbook on the sofa
+on(tv_stand, notes)            | put the notes on the tv stand
+on(desk_1, folder)             | put the folder on desk 1
+on(coffee_table, cup)          | put the cup on the coffee table
+has(user, computer_science_textbook) | give the computer science textbook to the user
+has(user, cup)                 | give the cup to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 3  User4 Scholar 3
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, physics_textbook)     | put the physics textbook on the sofa
+on(tv_stand, folder)           | put the folder on the tv stand
+on(desk_1, notes)              | put the notes on desk 1
+on(kitchen_table, mug)         | put the mug on the kitchen table
+has(user, physics_textbook)    | give the physics textbook to the user
+has(user, mug)                 | give the mug to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 4  User4 Scholar 4
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, fantasy_novel)        | put the fantasy novel on the sofa
+on(tv_stand, magazine)         | put the magazine on the tv stand
+on(desk_1, cellphone)          | put the cellphone on desk 1
+on(coffee_table, coffee)       | put the coffee on the coffee table
+has(user, fantasy_novel)       | give the fantasy novel to the user
+has(user, coffee)              | give the coffee to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 5  User4 Scholar 5
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, sci_fi_novel)         | put the sci-fi novel on the sofa
+on(tv_stand, notes)            | put the notes on the tv stand
+on(desk_1, magazine)           | put the magazine on desk 1
+on(kitchen_table, espresso)    | put the espresso on the kitchen table
+has(user, sci_fi_novel)        | give the sci-fi novel to the user
+has(user, espresso)            | give the espresso to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 6  User4 Scholar 6
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, classic_novel)        | put the classic novel on the sofa
+on(tv_stand, folder)           | put the folder on the tv stand
+on(desk_1, folder)             | put the folder on desk 1
+on(coffee_table, milk)         | put the milk on the coffee table
+has(user, classic_novel)       | give the classic novel to the user
+has(user, milk)                | give the milk to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 7  User4 Scholar 7
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, computer_science_textbook) | put the computer science textbook on the sofa
+on(tv_stand, magazine)         | put the magazine on the tv stand
+on(desk_1, notes)              | put the notes on desk 1
+on(kitchen_table, juice)       | put the juice on the kitchen table
+has(user, computer_science_textbook) | give the computer science textbook to the user
+has(user, juice)               | give the juice to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 8  User4 Scholar 8
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, physics_textbook)     | put the physics textbook on the sofa
+on(tv_stand, notes)            | put the notes on the tv stand
+on(desk_1, cellphone)          | put the cellphone on desk 1
+on(coffee_table, water_glass)  | put the water glass on the coffee table
+has(user, physics_textbook)    | give the physics textbook to the user
+has(user, water_glass)         | give the water glass to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 9  User4 Scholar 9
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, fantasy_novel)        | put the fantasy novel on the sofa
+on(tv_stand, folder)           | put the folder on the tv stand
+on(desk_1, magazine)           | put the magazine on desk 1
+on(kitchen_table, cup)         | put the cup on the kitchen table
+has(user, fantasy_novel)       | give the fantasy novel to the user
+has(user, cup)                 | give the cup to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 10  User4 Scholar 10
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, sci_fi_novel)         | put the sci-fi novel on the sofa
+on(tv_stand, magazine)         | put the magazine on the tv stand
+on(desk_1, folder)             | put the folder on desk 1
+on(coffee_table, mug)          | put the mug on the coffee table
+has(user, sci_fi_novel)        | give the sci-fi novel to the user
+has(user, mug)                 | give the mug to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 11  User4 Scholar 11
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, classic_novel)        | put the classic novel on the sofa
+on(tv_stand, notes)            | put the notes on the tv stand
+on(desk_1, notes)              | put the notes on desk 1
+on(kitchen_table, coffee)      | put the coffee on the kitchen table
+has(user, classic_novel)       | give the classic novel to the user
+has(user, coffee)              | give the coffee to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 12  User4 Scholar 12
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, computer_science_textbook) | put the computer science textbook on the sofa
+on(tv_stand, folder)           | put the folder on the tv stand
+on(desk_1, cellphone)          | put the cellphone on desk 1
+on(coffee_table, espresso)     | put the espresso on the coffee table
+has(user, computer_science_textbook) | give the computer science textbook to the user
+has(user, espresso)            | give the espresso to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 13  User4 Scholar 13
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, physics_textbook)     | put the physics textbook on the sofa
+on(tv_stand, magazine)         | put the magazine on the tv stand
+on(desk_1, magazine)           | put the magazine on desk 1
+on(kitchen_table, milk)        | put the milk on the kitchen table
+has(user, physics_textbook)    | give the physics textbook to the user
+has(user, milk)                | give the milk to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 14  User4 Scholar 14
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, fantasy_novel)        | put the fantasy novel on the sofa
+on(tv_stand, notes)            | put the notes on the tv stand
+on(desk_1, folder)             | put the folder on desk 1
+on(coffee_table, juice)        | put the juice on the coffee table
+has(user, fantasy_novel)       | give the fantasy novel to the user
+has(user, juice)               | give the juice to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 15  User4 Scholar 15
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, sci_fi_novel)         | put the sci-fi novel on the sofa
+on(tv_stand, folder)           | put the folder on the tv stand
+on(desk_1, notes)              | put the notes on desk 1
+on(kitchen_table, water_glass) | put the water glass on the kitchen table
+has(user, sci_fi_novel)        | give the sci-fi novel to the user
+has(user, water_glass)         | give the water glass to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 16  User4 Scholar 16
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, classic_novel)        | put the classic novel on the sofa
+on(tv_stand, magazine)         | put the magazine on the tv stand
+on(desk_1, cellphone)          | put the cellphone on desk 1
+on(coffee_table, cup)          | put the cup on the coffee table
+has(user, classic_novel)       | give the classic novel to the user
+has(user, cup)                 | give the cup to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 17  User4 Scholar 17
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, computer_science_textbook) | put the computer science textbook on the sofa
+on(tv_stand, notes)            | put the notes on the tv stand
+on(desk_1, magazine)           | put the magazine on desk 1
+on(kitchen_table, mug)         | put the mug on the kitchen table
+has(user, computer_science_textbook) | give the computer science textbook to the user
+has(user, mug)                 | give the mug to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 18  User4 Scholar 18
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, physics_textbook)     | put the physics textbook on the sofa
+on(tv_stand, folder)           | put the folder on the tv stand
+on(desk_1, folder)             | put the folder on desk 1
+on(coffee_table, coffee)       | put the coffee on the coffee table
+has(user, physics_textbook)    | give the physics textbook to the user
+has(user, coffee)              | give the coffee to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 19  User4 Scholar 19
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, fantasy_novel)        | put the fantasy novel on the sofa
+on(tv_stand, magazine)         | put the magazine on the tv stand
+on(desk_1, notes)              | put the notes on desk 1
+on(kitchen_table, espresso)    | put the espresso on the kitchen table
+has(user, fantasy_novel)       | give the fantasy novel to the user
+has(user, espresso)            | give the espresso to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 20  User4 Scholar 20
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, sci_fi_novel)         | put the sci-fi novel on the sofa
+on(tv_stand, notes)            | put the notes on the tv stand
+on(desk_1, cellphone)          | put the cellphone on desk 1
+on(coffee_table, milk)         | put the milk on the coffee table
+has(user, sci_fi_novel)        | give the sci-fi novel to the user
+has(user, milk)                | give the milk to the user
+switched_off(table_lamp)             | switch off the table lamp
+]

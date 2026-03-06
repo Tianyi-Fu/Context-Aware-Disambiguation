@@ -1,0 +1,2741 @@
+{
+  "concepts": [
+    {
+      "concept_id": "c000001",
+      "tokens": [
+        "conforms_to_container",
+        "no_fixed_orientation"
+      ],
+      "size": 2,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 4.666667
+    },
+    {
+      "concept_id": "c000002",
+      "tokens": [
+        "rounded_contours",
+        "soft"
+      ],
+      "size": 2,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 4.2
+    },
+    {
+      "concept_id": "c000003",
+      "tokens": [
+        "electrical_powered",
+        "nonporous_surface"
+      ],
+      "size": 2,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 3.818182
+    },
+    {
+      "concept_id": "c000004",
+      "tokens": [
+        "cooked",
+        "perishable"
+      ],
+      "size": 2,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 3.5
+    },
+    {
+      "concept_id": "c000005",
+      "tokens": [
+        "packaged",
+        "perishable"
+      ],
+      "size": 2,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 3.5
+    },
+    {
+      "concept_id": "c000006",
+      "tokens": [
+        "flat_top_surface",
+        "horizontal_orientation"
+      ],
+      "size": 2,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 3.436364
+    },
+    {
+      "concept_id": "c000007",
+      "tokens": [
+        "rounded_contours",
+        "surface_layer"
+      ],
+      "size": 2,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 3.36
+    },
+    {
+      "concept_id": "c000008",
+      "tokens": [
+        "aromatic",
+        "homogeneous_mixture"
+      ],
+      "size": 2,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 3.333333
+    },
+    {
+      "concept_id": "c000009",
+      "tokens": [
+        "round_profile",
+        "single_piece"
+      ],
+      "size": 2,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 3.230769
+    },
+    {
+      "concept_id": "c000010",
+      "tokens": [
+        "curved_sidewalls",
+        "single_piece"
+      ],
+      "size": 2,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 3.230769
+    },
+    {
+      "concept_id": "c000011",
+      "tokens": [
+        "aromatic",
+        "no_fixed_orientation"
+      ],
+      "size": 2,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 3.111111
+    },
+    {
+      "concept_id": "c000012",
+      "tokens": [
+        "flat_profile",
+        "thin_profile"
+      ],
+      "size": 2,
+      "count": 12,
+      "support": 0.285714,
+      "lift": 3.0
+    },
+    {
+      "concept_id": "c000013",
+      "tokens": [
+        "flat_top_surface",
+        "rectangular_prism_body"
+      ],
+      "size": 2,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 2.907692
+    },
+    {
+      "concept_id": "c000014",
+      "tokens": [
+        "handheld_size",
+        "single_piece"
+      ],
+      "size": 2,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 2.871795
+    },
+    {
+      "concept_id": "c000015",
+      "tokens": [
+        "horizontal_orientation",
+        "moderate_weight"
+      ],
+      "size": 2,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 2.77686
+    },
+    {
+      "concept_id": "c000016",
+      "tokens": [
+        "aromatic",
+        "perishable"
+      ],
+      "size": 2,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 2.722222
+    },
+    {
+      "concept_id": "c000017",
+      "tokens": [
+        "no_fixed_orientation",
+        "perishable"
+      ],
+      "size": 2,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 2.722222
+    },
+    {
+      "concept_id": "c000018",
+      "tokens": [
+        "horizontal_orientation",
+        "rectangular_prism_body"
+      ],
+      "size": 2,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 2.643357
+    },
+    {
+      "concept_id": "c000019",
+      "tokens": [
+        "homogeneous_mixture",
+        "perishable"
+      ],
+      "size": 2,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 2.5
+    },
+    {
+      "concept_id": "c000020",
+      "tokens": [
+        "hard_material",
+        "smooth_surface"
+      ],
+      "size": 2,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 2.454545
+    },
+    {
+      "concept_id": "c000021",
+      "tokens": [
+        "perishable",
+        "rounded_contours"
+      ],
+      "size": 2,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 2.45
+    },
+    {
+      "concept_id": "c000022",
+      "tokens": [
+        "single_piece",
+        "smooth_surface"
+      ],
+      "size": 2,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 2.34965
+    },
+    {
+      "concept_id": "c000023",
+      "tokens": [
+        "hard_surface",
+        "single_piece_body"
+      ],
+      "size": 2,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 2.333333
+    },
+    {
+      "concept_id": "c000024",
+      "tokens": [
+        "circular_base",
+        "stable_base"
+      ],
+      "size": 2,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 2.333333
+    },
+    {
+      "concept_id": "c000025",
+      "tokens": [
+        "dry",
+        "lightweight"
+      ],
+      "size": 2,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 2.290909
+    },
+    {
+      "concept_id": "c000026",
+      "tokens": [
+        "rounded_contours",
+        "single_piece"
+      ],
+      "size": 2,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 2.261538
+    },
+    {
+      "concept_id": "c000027",
+      "tokens": [
+        "single_piece",
+        "surface_layer"
+      ],
+      "size": 2,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 2.261538
+    },
+    {
+      "concept_id": "c000028",
+      "tokens": [
+        "hard_material",
+        "hard_surface"
+      ],
+      "size": 2,
+      "count": 13,
+      "support": 0.309524,
+      "lift": 2.166667
+    },
+    {
+      "concept_id": "c000029",
+      "tokens": [
+        "low_height",
+        "stable_base"
+      ],
+      "size": 2,
+      "count": 12,
+      "support": 0.285714,
+      "lift": 2.153846
+    },
+    {
+      "concept_id": "c000030",
+      "tokens": [
+        "rectangular",
+        "straight_edges"
+      ],
+      "size": 2,
+      "count": 11,
+      "support": 0.261905,
+      "lift": 2.138889
+    },
+    {
+      "concept_id": "c000031",
+      "tokens": [
+        "hard_surface",
+        "nonporous_surface"
+      ],
+      "size": 2,
+      "count": 10,
+      "support": 0.238095,
+      "lift": 2.121212
+    },
+    {
+      "concept_id": "c000032",
+      "tokens": [
+        "multiple_pieces",
+        "support_frame"
+      ],
+      "size": 2,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 2.121212
+    },
+    {
+      "concept_id": "c000033",
+      "tokens": [
+        "right_angle_edges",
+        "straight_edges"
+      ],
+      "size": 2,
+      "count": 11,
+      "support": 0.261905,
+      "lift": 2.026316
+    },
+    {
+      "concept_id": "c000034",
+      "tokens": [
+        "rigid",
+        "wear_resistant"
+      ],
+      "size": 2,
+      "count": 11,
+      "support": 0.261905,
+      "lift": 2.0
+    },
+    {
+      "concept_id": "c000035",
+      "tokens": [
+        "boxy_form",
+        "rigid"
+      ],
+      "size": 2,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 2.0
+    },
+    {
+      "concept_id": "c000036",
+      "tokens": [
+        "hard_surface",
+        "rectangular_prism_body"
+      ],
+      "size": 2,
+      "count": 11,
+      "support": 0.261905,
+      "lift": 1.974359
+    },
+    {
+      "concept_id": "c000037",
+      "tokens": [
+        "lightweight",
+        "perishable"
+      ],
+      "size": 2,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 1.909091
+    },
+    {
+      "concept_id": "c000038",
+      "tokens": [
+        "rigid",
+        "stable_base"
+      ],
+      "size": 2,
+      "count": 17,
+      "support": 0.404762,
+      "lift": 1.888889
+    },
+    {
+      "concept_id": "c000039",
+      "tokens": [
+        "rectangular",
+        "right_angle_edges"
+      ],
+      "size": 2,
+      "count": 15,
+      "support": 0.357143,
+      "lift": 1.842105
+    },
+    {
+      "concept_id": "c000040",
+      "tokens": [
+        "low_height",
+        "multiple_pieces"
+      ],
+      "size": 2,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 1.794872
+    },
+    {
+      "concept_id": "c000041",
+      "tokens": [
+        "round_profile",
+        "stable_base"
+      ],
+      "size": 2,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 1.75
+    },
+    {
+      "concept_id": "c000042",
+      "tokens": [
+        "rectangular_prism_body",
+        "right_angle_edges"
+      ],
+      "size": 2,
+      "count": 10,
+      "support": 0.238095,
+      "lift": 1.700405
+    },
+    {
+      "concept_id": "c000043",
+      "tokens": [
+        "rigid",
+        "smooth_surface"
+      ],
+      "size": 2,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 1.636364
+    },
+    {
+      "concept_id": "c000044",
+      "tokens": [
+        "right_angle_edges",
+        "rigid"
+      ],
+      "size": 2,
+      "count": 14,
+      "support": 0.333333,
+      "lift": 1.473684
+    },
+    {
+      "concept_id": "c000045",
+      "tokens": [
+        "lightweight",
+        "single_piece"
+      ],
+      "size": 2,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 1.468531
+    },
+    {
+      "concept_id": "c000046",
+      "tokens": [
+        "aqueous",
+        "conforms_to_container",
+        "no_fixed_orientation"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 32.666667
+    },
+    {
+      "concept_id": "c000047",
+      "tokens": [
+        "floor_standing",
+        "support_legs",
+        "underside_frame"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 31.5
+    },
+    {
+      "concept_id": "c000048",
+      "tokens": [
+        "circular_rim",
+        "concave_interior",
+        "nonporous_surface"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 26.727273
+    },
+    {
+      "concept_id": "c000049",
+      "tokens": [
+        "back_cover",
+        "binding",
+        "cardboard_cover"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 24.5
+    },
+    {
+      "concept_id": "c000050",
+      "tokens": [
+        "floor_standing",
+        "medium_to_large_size",
+        "support_legs"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 24.5
+    },
+    {
+      "concept_id": "c000051",
+      "tokens": [
+        "flat_top_surface",
+        "support_legs",
+        "underside_frame"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 21.0
+    },
+    {
+      "concept_id": "c000052",
+      "tokens": [
+        "back_cover",
+        "binding",
+        "flexible_pages"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 20.416667
+    },
+    {
+      "concept_id": "c000053",
+      "tokens": [
+        "back_cover",
+        "binding",
+        "stack_form"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 20.416667
+    },
+    {
+      "concept_id": "c000054",
+      "tokens": [
+        "floor_standing",
+        "freestanding",
+        "support_legs"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 18.9
+    },
+    {
+      "concept_id": "c000055",
+      "tokens": [
+        "back_cover",
+        "binding",
+        "portrait_orientation"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 17.818182
+    },
+    {
+      "concept_id": "c000056",
+      "tokens": [
+        "flexible_pages",
+        "page_edges",
+        "portrait_orientation"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 17.818182
+    },
+    {
+      "concept_id": "c000057",
+      "tokens": [
+        "page_edges",
+        "portrait_orientation",
+        "stack_form"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 17.818182
+    },
+    {
+      "concept_id": "c000058",
+      "tokens": [
+        "aromatic",
+        "rounded_contours",
+        "soft"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 16.333333
+    },
+    {
+      "concept_id": "c000059",
+      "tokens": [
+        "dry",
+        "page_edges",
+        "stack_form"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 16.333333
+    },
+    {
+      "concept_id": "c000060",
+      "tokens": [
+        "rectangular_prism_body",
+        "support_legs",
+        "underside_frame"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 16.153846
+    },
+    {
+      "concept_id": "c000061",
+      "tokens": [
+        "binding",
+        "cardboard_cover",
+        "straight_edges"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 15.75
+    },
+    {
+      "concept_id": "c000062",
+      "tokens": [
+        "binding",
+        "cardboard_cover",
+        "dry"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 15.75
+    },
+    {
+      "concept_id": "c000063",
+      "tokens": [
+        "boxy_form",
+        "floor_standing",
+        "medium_to_large_size"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 15.3125
+    },
+    {
+      "concept_id": "c000064",
+      "tokens": [
+        "floor_standing",
+        "medium_to_large_size",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 15.076923
+    },
+    {
+      "concept_id": "c000065",
+      "tokens": [
+        "back_cover",
+        "binding",
+        "dry"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 14.7
+    },
+    {
+      "concept_id": "c000066",
+      "tokens": [
+        "flat_top_surface",
+        "floor_standing",
+        "medium_to_large_size"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 14.7
+    },
+    {
+      "concept_id": "c000067",
+      "tokens": [
+        "flesh_interior",
+        "perishable",
+        "rounded_contours"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 14.7
+    },
+    {
+      "concept_id": "c000068",
+      "tokens": [
+        "moist",
+        "perishable",
+        "rounded_contours"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 14.7
+    },
+    {
+      "concept_id": "c000069",
+      "tokens": [
+        "rounded_contours",
+        "soft",
+        "surface_layer"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 14.7
+    },
+    {
+      "concept_id": "c000070",
+      "tokens": [
+        "floor_standing",
+        "rectangular_prism_body",
+        "support_legs"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 14.538462
+    },
+    {
+      "concept_id": "c000071",
+      "tokens": [
+        "back_cover",
+        "binding",
+        "straight_edges"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 14.291667
+    },
+    {
+      "concept_id": "c000072",
+      "tokens": [
+        "curved_sidewalls",
+        "round_profile",
+        "single_piece"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 14.134615
+    },
+    {
+      "concept_id": "c000073",
+      "tokens": [
+        "page_edges",
+        "stack_form",
+        "straight_edges"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 13.611111
+    },
+    {
+      "concept_id": "c000074",
+      "tokens": [
+        "back_cover",
+        "portrait_orientation",
+        "thin_profile"
+      ],
+      "size": 3,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 13.363636
+    },
+    {
+      "concept_id": "c000075",
+      "tokens": [
+        "page_edges",
+        "portrait_orientation",
+        "thin_profile"
+      ],
+      "size": 3,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 13.363636
+    },
+    {
+      "concept_id": "c000076",
+      "tokens": [
+        "floor_standing",
+        "medium_to_large_size",
+        "rectangular_prism_body"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 13.192308
+    },
+    {
+      "concept_id": "c000077",
+      "tokens": [
+        "medium_to_large_size",
+        "support_frame",
+        "wear_resistant"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 12.958678
+    },
+    {
+      "concept_id": "c000078",
+      "tokens": [
+        "curved_sidewalls",
+        "handheld_size",
+        "single_piece"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 12.564103
+    },
+    {
+      "concept_id": "c000079",
+      "tokens": [
+        "dry",
+        "portrait_orientation",
+        "printed_ink"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 12.472727
+    },
+    {
+      "concept_id": "c000080",
+      "tokens": [
+        "back_cover",
+        "dry",
+        "portrait_orientation"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 12.472727
+    },
+    {
+      "concept_id": "c000081",
+      "tokens": [
+        "heat_resistant",
+        "nonporous_surface",
+        "smooth_surface"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 12.14876
+    },
+    {
+      "concept_id": "c000082",
+      "tokens": [
+        "back_cover",
+        "portrait_orientation",
+        "straight_edges"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 11.878788
+    },
+    {
+      "concept_id": "c000083",
+      "tokens": [
+        "page_edges",
+        "portrait_orientation",
+        "straight_edges"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 11.878788
+    },
+    {
+      "concept_id": "c000084",
+      "tokens": [
+        "enclosed_cavity",
+        "hard_surface",
+        "vertical_orientation"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 11.666667
+    },
+    {
+      "concept_id": "c000085",
+      "tokens": [
+        "horizontal_orientation",
+        "medium_to_large_size",
+        "support_frame"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 11.338843
+    },
+    {
+      "concept_id": "c000086",
+      "tokens": [
+        "handheld_size",
+        "round_profile",
+        "single_piece"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 11.307692
+    },
+    {
+      "concept_id": "c000087",
+      "tokens": [
+        "flat_top_surface",
+        "medium_to_large_size",
+        "single_piece_body"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 10.888889
+    },
+    {
+      "concept_id": "c000088",
+      "tokens": [
+        "dry",
+        "portrait_orientation",
+        "thin_profile"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 10.690909
+    },
+    {
+      "concept_id": "c000089",
+      "tokens": [
+        "flat_top_surface",
+        "horizontal_orientation",
+        "medium_to_large_size"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 10.690909
+    },
+    {
+      "concept_id": "c000090",
+      "tokens": [
+        "flat_top_surface",
+        "horizontal_orientation",
+        "single_piece_body"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 10.690909
+    },
+    {
+      "concept_id": "c000091",
+      "tokens": [
+        "flat_top_surface",
+        "medium_to_large_size",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 10.553846
+    },
+    {
+      "concept_id": "c000092",
+      "tokens": [
+        "flat_top_surface",
+        "rectangular_prism_body",
+        "single_piece_body"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 10.553846
+    },
+    {
+      "concept_id": "c000093",
+      "tokens": [
+        "flat_profile",
+        "portrait_orientation",
+        "thin_profile"
+      ],
+      "size": 3,
+      "count": 11,
+      "support": 0.261905,
+      "lift": 10.5
+    },
+    {
+      "concept_id": "c000094",
+      "tokens": [
+        "flat_top_surface",
+        "horizontal_orientation",
+        "moderate_weight"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 10.204959
+    },
+    {
+      "concept_id": "c000095",
+      "tokens": [
+        "flat_top_surface",
+        "horizontal_orientation",
+        "support_frame"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 10.204959
+    },
+    {
+      "concept_id": "c000096",
+      "tokens": [
+        "support_frame",
+        "wear_resistant",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 10.092816
+    },
+    {
+      "concept_id": "c000097",
+      "tokens": [
+        "portrait_orientation",
+        "straight_edges",
+        "thin_profile"
+      ],
+      "size": 3,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 10.022727
+    },
+    {
+      "concept_id": "c000098",
+      "tokens": [
+        "flat_top_surface",
+        "horizontal_orientation",
+        "rectangular_prism_body"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 9.868531
+    },
+    {
+      "concept_id": "c000099",
+      "tokens": [
+        "flat_top_surface",
+        "horizontal_orientation",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 9.868531
+    },
+    {
+      "concept_id": "c000100",
+      "tokens": [
+        "aromatic",
+        "rounded_contours",
+        "surface_layer"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 9.8
+    },
+    {
+      "concept_id": "c000101",
+      "tokens": [
+        "aromatic",
+        "perishable",
+        "rounded_contours"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 9.8
+    },
+    {
+      "concept_id": "c000102",
+      "tokens": [
+        "back_cover",
+        "dry",
+        "straight_edges"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 9.8
+    },
+    {
+      "concept_id": "c000103",
+      "tokens": [
+        "dry",
+        "page_edges",
+        "straight_edges"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 9.8
+    },
+    {
+      "concept_id": "c000104",
+      "tokens": [
+        "freestanding",
+        "rectangular_prism_body",
+        "support_legs"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 9.692308
+    },
+    {
+      "concept_id": "c000105",
+      "tokens": [
+        "flat_top_surface",
+        "freestanding",
+        "horizontal_orientation"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 9.621818
+    },
+    {
+      "concept_id": "c000106",
+      "tokens": [
+        "horizontal_orientation",
+        "single_piece_body",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 9.594406
+    },
+    {
+      "concept_id": "c000107",
+      "tokens": [
+        "medium_to_large_size",
+        "rectangular_prism_body",
+        "support_frame"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 9.594406
+    },
+    {
+      "concept_id": "c000108",
+      "tokens": [
+        "dry",
+        "flat_profile",
+        "thin_profile"
+      ],
+      "size": 3,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 9.45
+    },
+    {
+      "concept_id": "c000109",
+      "tokens": [
+        "dry",
+        "portrait_orientation",
+        "straight_edges"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 9.354545
+    },
+    {
+      "concept_id": "c000110",
+      "tokens": [
+        "medium_to_large_size",
+        "rectangular_prism_body",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 9.278107
+    },
+    {
+      "concept_id": "c000111",
+      "tokens": [
+        "horizontal_orientation",
+        "moderate_weight",
+        "support_frame"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 9.277235
+    },
+    {
+      "concept_id": "c000112",
+      "tokens": [
+        "round_profile",
+        "single_piece",
+        "smooth_surface"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 9.251748
+    },
+    {
+      "concept_id": "c000113",
+      "tokens": [
+        "binding",
+        "dry",
+        "straight_edges"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 9.1875
+    },
+    {
+      "concept_id": "c000114",
+      "tokens": [
+        "boxy_form",
+        "rectangular_prism_body",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 9.133136
+    },
+    {
+      "concept_id": "c000115",
+      "tokens": [
+        "flat_top_surface",
+        "medium_to_large_size",
+        "rectangular_prism_body"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 9.046154
+    },
+    {
+      "concept_id": "c000116",
+      "tokens": [
+        "floor_standing",
+        "medium_to_large_size",
+        "right_angle_edges"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 9.026316
+    },
+    {
+      "concept_id": "c000117",
+      "tokens": [
+        "horizontal_orientation",
+        "low_height",
+        "support_frame"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 8.971392
+    },
+    {
+      "concept_id": "c000118",
+      "tokens": [
+        "horizontal_orientation",
+        "low_height",
+        "wear_resistant"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 8.971392
+    },
+    {
+      "concept_id": "c000119",
+      "tokens": [
+        "low_height",
+        "moderate_weight",
+        "support_frame"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 8.971392
+    },
+    {
+      "concept_id": "c000120",
+      "tokens": [
+        "low_height",
+        "support_frame",
+        "wear_resistant"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 8.971392
+    },
+    {
+      "concept_id": "c000121",
+      "tokens": [
+        "freestanding",
+        "horizontal_orientation",
+        "single_piece_body"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 8.909091
+    },
+    {
+      "concept_id": "c000122",
+      "tokens": [
+        "hard_material",
+        "medium_to_large_size",
+        "support_frame"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 8.909091
+    },
+    {
+      "concept_id": "c000123",
+      "tokens": [
+        "concave_interior",
+        "hard_surface",
+        "nonporous_surface"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 8.909091
+    },
+    {
+      "concept_id": "c000124",
+      "tokens": [
+        "hard_surface",
+        "heat_resistant",
+        "nonporous_surface"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 8.909091
+    },
+    {
+      "concept_id": "c000125",
+      "tokens": [
+        "flat_top_surface",
+        "single_piece_body",
+        "support_frame"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 8.909091
+    },
+    {
+      "concept_id": "c000126",
+      "tokens": [
+        "perishable",
+        "rounded_contours",
+        "surface_layer"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 8.82
+    },
+    {
+      "concept_id": "c000127",
+      "tokens": [
+        "freestanding",
+        "horizontal_orientation",
+        "wear_resistant"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 8.747107
+    },
+    {
+      "concept_id": "c000128",
+      "tokens": [
+        "freestanding",
+        "horizontal_orientation",
+        "low_height"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 8.634965
+    },
+    {
+      "concept_id": "c000129",
+      "tokens": [
+        "freestanding",
+        "support_frame",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 8.634965
+    },
+    {
+      "concept_id": "c000130",
+      "tokens": [
+        "freestanding",
+        "wear_resistant",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 8.634965
+    },
+    {
+      "concept_id": "c000131",
+      "tokens": [
+        "horizontal_orientation",
+        "low_height",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 8.540075
+    },
+    {
+      "concept_id": "c000132",
+      "tokens": [
+        "low_height",
+        "support_frame",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 8.540075
+    },
+    {
+      "concept_id": "c000133",
+      "tokens": [
+        "low_height",
+        "wear_resistant",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 8.540075
+    },
+    {
+      "concept_id": "c000134",
+      "tokens": [
+        "boxy_form",
+        "flat_top_surface",
+        "rectangular_prism_body"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 8.480769
+    },
+    {
+      "concept_id": "c000135",
+      "tokens": [
+        "flat_top_surface",
+        "floor_standing",
+        "rectangular_prism_body"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 8.480769
+    },
+    {
+      "concept_id": "c000136",
+      "tokens": [
+        "flat_top_surface",
+        "rectangular_prism_body",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 8.350296
+    },
+    {
+      "concept_id": "c000137",
+      "tokens": [
+        "hard_material",
+        "nonporous_surface",
+        "smooth_surface"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 8.330579
+    },
+    {
+      "concept_id": "c000138",
+      "tokens": [
+        "hard_material",
+        "support_frame",
+        "wear_resistant"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 8.330579
+    },
+    {
+      "concept_id": "c000139",
+      "tokens": [
+        "horizontal_orientation",
+        "low_height",
+        "single_piece_body"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 8.223776
+    },
+    {
+      "concept_id": "c000140",
+      "tokens": [
+        "horizontal_orientation",
+        "medium_to_large_size",
+        "rectangular_prism_body"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 8.223776
+    },
+    {
+      "concept_id": "c000141",
+      "tokens": [
+        "rounded_contours",
+        "single_piece",
+        "surface_layer"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 8.141538
+    },
+    {
+      "concept_id": "c000142",
+      "tokens": [
+        "horizontal_orientation",
+        "single_piece_body",
+        "wear_resistant"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 8.099174
+    },
+    {
+      "concept_id": "c000143",
+      "tokens": [
+        "hard_material",
+        "wear_resistant",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 7.93007
+    },
+    {
+      "concept_id": "c000144",
+      "tokens": [
+        "horizontal_orientation",
+        "moderate_weight",
+        "rectangular_prism_body"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 7.849968
+    },
+    {
+      "concept_id": "c000145",
+      "tokens": [
+        "horizontal_orientation",
+        "rectangular_prism_body",
+        "support_frame"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 7.849968
+    },
+    {
+      "concept_id": "c000146",
+      "tokens": [
+        "boxy_form",
+        "horizontal_orientation",
+        "rectangular_prism_body"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 7.70979
+    },
+    {
+      "concept_id": "c000147",
+      "tokens": [
+        "boxy_form",
+        "rectangular_prism_body",
+        "support_frame"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 7.70979
+    },
+    {
+      "concept_id": "c000148",
+      "tokens": [
+        "enclosed_cavity",
+        "nonporous_surface",
+        "stable_base"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 7.636364
+    },
+    {
+      "concept_id": "c000149",
+      "tokens": [
+        "horizontal_orientation",
+        "rectangular_prism_body",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 7.591178
+    },
+    {
+      "concept_id": "c000150",
+      "tokens": [
+        "rectangular_prism_body",
+        "support_frame",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 7.591178
+    },
+    {
+      "concept_id": "c000151",
+      "tokens": [
+        "hard_surface",
+        "medium_to_large_size",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 7.538462
+    },
+    {
+      "concept_id": "c000152",
+      "tokens": [
+        "flat_front_face",
+        "hard_surface",
+        "rectangular_prism_body"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 7.538462
+    },
+    {
+      "concept_id": "c000153",
+      "tokens": [
+        "handheld_size",
+        "rounded_contours",
+        "single_piece"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 7.538462
+    },
+    {
+      "concept_id": "c000154",
+      "tokens": [
+        "nonporous_surface",
+        "stable_base",
+        "vertical_orientation"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 7.424242
+    },
+    {
+      "concept_id": "c000155",
+      "tokens": [
+        "flat_top_surface",
+        "moderate_weight",
+        "rectangular_prism_body"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 7.401399
+    },
+    {
+      "concept_id": "c000156",
+      "tokens": [
+        "flat_top_surface",
+        "rectangular_prism_body",
+        "support_frame"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 7.401399
+    },
+    {
+      "concept_id": "c000157",
+      "tokens": [
+        "freestanding",
+        "rectangular_prism_body",
+        "support_frame"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 7.401399
+    },
+    {
+      "concept_id": "c000158",
+      "tokens": [
+        "hard_material",
+        "horizontal_orientation",
+        "wear_resistant"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 7.289256
+    },
+    {
+      "concept_id": "c000159",
+      "tokens": [
+        "hard_material",
+        "low_height",
+        "support_frame"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 7.048951
+    },
+    {
+      "concept_id": "c000160",
+      "tokens": [
+        "hard_material",
+        "low_height",
+        "wear_resistant"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 7.048951
+    },
+    {
+      "concept_id": "c000161",
+      "tokens": [
+        "freestanding",
+        "hard_material",
+        "moderate_weight"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 6.872727
+    },
+    {
+      "concept_id": "c000162",
+      "tokens": [
+        "hard_surface",
+        "horizontal_orientation",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 10,
+      "support": 0.238095,
+      "lift": 6.853147
+    },
+    {
+      "concept_id": "c000163",
+      "tokens": [
+        "hard_surface",
+        "support_frame",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 10,
+      "support": 0.238095,
+      "lift": 6.853147
+    },
+    {
+      "concept_id": "c000164",
+      "tokens": [
+        "hard_surface",
+        "wear_resistant",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 10,
+      "support": 0.238095,
+      "lift": 6.853147
+    },
+    {
+      "concept_id": "c000165",
+      "tokens": [
+        "nonporous_surface",
+        "rectangular_prism_body",
+        "single_piece_body"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 6.853147
+    },
+    {
+      "concept_id": "c000166",
+      "tokens": [
+        "nonporous_surface",
+        "single_piece_body",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 6.853147
+    },
+    {
+      "concept_id": "c000167",
+      "tokens": [
+        "low_height",
+        "stable_base",
+        "support_frame"
+      ],
+      "size": 3,
+      "count": 10,
+      "support": 0.238095,
+      "lift": 6.853147
+    },
+    {
+      "concept_id": "c000168",
+      "tokens": [
+        "handheld_size",
+        "single_piece",
+        "smooth_surface"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 6.853147
+    },
+    {
+      "concept_id": "c000169",
+      "tokens": [
+        "flat_top_surface",
+        "hard_surface",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 6.784615
+    },
+    {
+      "concept_id": "c000170",
+      "tokens": [
+        "perishable",
+        "rounded_contours",
+        "single_piece"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 6.784615
+    },
+    {
+      "concept_id": "c000171",
+      "tokens": [
+        "flat_top_surface",
+        "freestanding",
+        "rectangular_prism_body"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 6.784615
+    },
+    {
+      "concept_id": "c000172",
+      "tokens": [
+        "moderate_weight",
+        "rectangular_prism_body",
+        "support_frame"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 6.728544
+    },
+    {
+      "concept_id": "c000173",
+      "tokens": [
+        "nonporous_surface",
+        "single_piece",
+        "smooth_surface"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 6.728544
+    },
+    {
+      "concept_id": "c000174",
+      "tokens": [
+        "hard_surface",
+        "single_piece_body",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 6.700855
+    },
+    {
+      "concept_id": "c000175",
+      "tokens": [
+        "hard_surface",
+        "rectangular_prism_body",
+        "single_piece_body"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 6.700855
+    },
+    {
+      "concept_id": "c000176",
+      "tokens": [
+        "dry",
+        "lightweight",
+        "thin_profile"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 6.681818
+    },
+    {
+      "concept_id": "c000177",
+      "tokens": [
+        "hard_material",
+        "medium_to_large_size",
+        "rectangular_prism_body"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 6.461538
+    },
+    {
+      "concept_id": "c000178",
+      "tokens": [
+        "medium_to_large_size",
+        "right_angle_edges",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 6.348178
+    },
+    {
+      "concept_id": "c000179",
+      "tokens": [
+        "freestanding",
+        "hard_material",
+        "hard_surface"
+      ],
+      "size": 3,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 6.3
+    },
+    {
+      "concept_id": "c000180",
+      "tokens": [
+        "hard_material",
+        "moderate_weight",
+        "support_frame"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 6.247934
+    },
+    {
+      "concept_id": "c000181",
+      "tokens": [
+        "freestanding",
+        "moderate_weight",
+        "stable_base"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 6.236364
+    },
+    {
+      "concept_id": "c000182",
+      "tokens": [
+        "flat_top_surface",
+        "rectangular_prism_body",
+        "wear_resistant"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 6.167832
+    },
+    {
+      "concept_id": "c000183",
+      "tokens": [
+        "lightweight",
+        "portrait_orientation",
+        "straight_edges"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 6.07438
+    },
+    {
+      "concept_id": "c000184",
+      "tokens": [
+        "freestanding",
+        "hard_surface",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 6.030769
+    },
+    {
+      "concept_id": "c000185",
+      "tokens": [
+        "hard_surface",
+        "nonporous_surface",
+        "single_piece_body"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 5.939394
+    },
+    {
+      "concept_id": "c000186",
+      "tokens": [
+        "hard_material",
+        "stable_base",
+        "vertical_orientation"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 5.833333
+    },
+    {
+      "concept_id": "c000187",
+      "tokens": [
+        "hard_surface",
+        "low_height",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 10,
+      "support": 0.238095,
+      "lift": 5.798817
+    },
+    {
+      "concept_id": "c000188",
+      "tokens": [
+        "hard_surface",
+        "rectangular_prism_body",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 10,
+      "support": 0.238095,
+      "lift": 5.798817
+    },
+    {
+      "concept_id": "c000189",
+      "tokens": [
+        "flat_profile",
+        "lightweight",
+        "thin_profile"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 5.727273
+    },
+    {
+      "concept_id": "c000190",
+      "tokens": [
+        "hard_material",
+        "stable_base",
+        "support_frame"
+      ],
+      "size": 3,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 5.727273
+    },
+    {
+      "concept_id": "c000191",
+      "tokens": [
+        "hard_surface",
+        "nonporous_surface",
+        "smooth_surface"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 5.669421
+    },
+    {
+      "concept_id": "c000192",
+      "tokens": [
+        "nonporous_surface",
+        "smooth_surface",
+        "stable_base"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 5.669421
+    },
+    {
+      "concept_id": "c000193",
+      "tokens": [
+        "perishable",
+        "single_piece",
+        "surface_layer"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 5.653846
+    },
+    {
+      "concept_id": "c000194",
+      "tokens": [
+        "medium_to_large_size",
+        "rectangular_prism_body",
+        "right_angle_edges"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 5.554656
+    },
+    {
+      "concept_id": "c000195",
+      "tokens": [
+        "freestanding",
+        "hard_surface",
+        "stable_base"
+      ],
+      "size": 3,
+      "count": 10,
+      "support": 0.238095,
+      "lift": 5.444444
+    },
+    {
+      "concept_id": "c000196",
+      "tokens": [
+        "hard_surface",
+        "stable_base",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 13,
+      "support": 0.309524,
+      "lift": 5.444444
+    },
+    {
+      "concept_id": "c000197",
+      "tokens": [
+        "enclosed_cavity",
+        "hard_surface",
+        "stable_base"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 5.444444
+    },
+    {
+      "concept_id": "c000198",
+      "tokens": [
+        "hard_material",
+        "rectangular_prism_body",
+        "single_piece_body"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 5.384615
+    },
+    {
+      "concept_id": "c000199",
+      "tokens": [
+        "boxy_form",
+        "right_angle_edges",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 5.356275
+    },
+    {
+      "concept_id": "c000200",
+      "tokens": [
+        "floor_standing",
+        "rectangular_prism_body",
+        "right_angle_edges"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 5.356275
+    },
+    {
+      "concept_id": "c000201",
+      "tokens": [
+        "right_angle_edges",
+        "support_frame",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 5.193964
+    },
+    {
+      "concept_id": "c000202",
+      "tokens": [
+        "hard_material",
+        "moderate_weight",
+        "stable_base"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 5.090909
+    },
+    {
+      "concept_id": "c000203",
+      "tokens": [
+        "hard_material",
+        "smooth_surface",
+        "stable_base"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 5.090909
+    },
+    {
+      "concept_id": "c000204",
+      "tokens": [
+        "hard_material",
+        "hard_surface",
+        "smooth_surface"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 5.090909
+    },
+    {
+      "concept_id": "c000205",
+      "tokens": [
+        "rectangular_prism_body",
+        "right_angle_edges",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 4.944254
+    },
+    {
+      "concept_id": "c000206",
+      "tokens": [
+        "hard_material",
+        "low_height",
+        "stable_base"
+      ],
+      "size": 3,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 4.846154
+    },
+    {
+      "concept_id": "c000207",
+      "tokens": [
+        "hard_material",
+        "hard_surface",
+        "stable_base"
+      ],
+      "size": 3,
+      "count": 12,
+      "support": 0.285714,
+      "lift": 4.666667
+    },
+    {
+      "concept_id": "c000208",
+      "tokens": [
+        "rigid",
+        "stable_base",
+        "support_frame"
+      ],
+      "size": 3,
+      "count": 11,
+      "support": 0.261905,
+      "lift": 4.666667
+    },
+    {
+      "concept_id": "c000209",
+      "tokens": [
+        "hard_material",
+        "hard_surface",
+        "single_piece_body"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 4.666667
+    },
+    {
+      "concept_id": "c000210",
+      "tokens": [
+        "rigid",
+        "stable_base",
+        "vertical_orientation"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 4.666667
+    },
+    {
+      "concept_id": "c000211",
+      "tokens": [
+        "rectangular_prism_body",
+        "right_angle_edges",
+        "support_frame"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 4.544718
+    },
+    {
+      "concept_id": "c000212",
+      "tokens": [
+        "horizontal_orientation",
+        "rectangular_prism_body",
+        "right_angle_edges"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 4.544718
+    },
+    {
+      "concept_id": "c000213",
+      "tokens": [
+        "hard_surface",
+        "moderate_weight",
+        "stable_base"
+      ],
+      "size": 3,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 4.454545
+    },
+    {
+      "concept_id": "c000214",
+      "tokens": [
+        "hard_surface",
+        "nonporous_surface",
+        "stable_base"
+      ],
+      "size": 3,
+      "count": 9,
+      "support": 0.214286,
+      "lift": 4.454545
+    },
+    {
+      "concept_id": "c000215",
+      "tokens": [
+        "hard_material",
+        "hard_surface",
+        "moderate_weight"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 4.454545
+    },
+    {
+      "concept_id": "c000216",
+      "tokens": [
+        "hard_material",
+        "low_height",
+        "smooth_surface"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 4.405594
+    },
+    {
+      "concept_id": "c000217",
+      "tokens": [
+        "hard_material",
+        "rigid",
+        "stable_base"
+      ],
+      "size": 3,
+      "count": 13,
+      "support": 0.309524,
+      "lift": 4.333333
+    },
+    {
+      "concept_id": "c000218",
+      "tokens": [
+        "rectangular",
+        "right_angle_edges",
+        "straight_edges"
+      ],
+      "size": 3,
+      "count": 10,
+      "support": 0.238095,
+      "lift": 4.298246
+    },
+    {
+      "concept_id": "c000219",
+      "tokens": [
+        "moderate_weight",
+        "rigid",
+        "stable_base"
+      ],
+      "size": 3,
+      "count": 10,
+      "support": 0.238095,
+      "lift": 4.242424
+    },
+    {
+      "concept_id": "c000220",
+      "tokens": [
+        "nonporous_surface",
+        "rigid",
+        "stable_base"
+      ],
+      "size": 3,
+      "count": 10,
+      "support": 0.238095,
+      "lift": 4.242424
+    },
+    {
+      "concept_id": "c000221",
+      "tokens": [
+        "hard_surface",
+        "rigid",
+        "stable_base"
+      ],
+      "size": 3,
+      "count": 16,
+      "support": 0.380952,
+      "lift": 4.148148
+    },
+    {
+      "concept_id": "c000222",
+      "tokens": [
+        "hard_surface",
+        "nonporous_surface",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 6,
+      "support": 0.142857,
+      "lift": 4.111888
+    },
+    {
+      "concept_id": "c000223",
+      "tokens": [
+        "low_height",
+        "rigid",
+        "stable_base"
+      ],
+      "size": 3,
+      "count": 11,
+      "support": 0.261905,
+      "lift": 3.948718
+    },
+    {
+      "concept_id": "c000224",
+      "tokens": [
+        "boxy_form",
+        "right_angle_edges",
+        "rigid"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 3.868421
+    },
+    {
+      "concept_id": "c000225",
+      "tokens": [
+        "hard_material",
+        "hard_surface",
+        "rectangular_prism_body"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 3.769231
+    },
+    {
+      "concept_id": "c000226",
+      "tokens": [
+        "rigid",
+        "smooth_surface",
+        "wear_resistant"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 3.471074
+    },
+    {
+      "concept_id": "c000227",
+      "tokens": [
+        "hard_surface",
+        "smooth_surface",
+        "stable_base"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 3.464646
+    },
+    {
+      "concept_id": "c000228",
+      "tokens": [
+        "low_height",
+        "nonporous_surface",
+        "stable_base"
+      ],
+      "size": 3,
+      "count": 5,
+      "support": 0.119048,
+      "lift": 3.426573
+    },
+    {
+      "concept_id": "c000229",
+      "tokens": [
+        "right_angle_edges",
+        "rigid",
+        "wide_body"
+      ],
+      "size": 3,
+      "count": 10,
+      "support": 0.238095,
+      "lift": 3.40081
+    },
+    {
+      "concept_id": "c000230",
+      "tokens": [
+        "rectangular",
+        "right_angle_edges",
+        "wear_resistant"
+      ],
+      "size": 3,
+      "count": 7,
+      "support": 0.166667,
+      "lift": 3.282297
+    },
+    {
+      "concept_id": "c000231",
+      "tokens": [
+        "right_angle_edges",
+        "rigid",
+        "wear_resistant"
+      ],
+      "size": 3,
+      "count": 8,
+      "support": 0.190476,
+      "lift": 3.215311
+    }
+  ],
+  "min_support": 0.1,
+  "min_count": 3,
+  "min_lift": 1.3,
+  "min_size": 2,
+  "max_size": 3,
+  "max_single_support": 0.85,
+  "min_support_drop": 0.02,
+  "max_concepts_per_extent": 1,
+  "max_concepts_per_object": 24,
+  "object_count": 42
+}

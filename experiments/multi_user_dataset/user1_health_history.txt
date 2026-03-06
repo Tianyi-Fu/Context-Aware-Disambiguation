@@ -1,0 +1,219 @@
+[  % 1  Morning Fruit Bowl Ritual
+on(dish_bowl, apple)                | put an apple in the bowl
+on(dish_bowl, peach)                | put a peach in the bowl
+on(dish_bowl, cereal)               | put the cereal in the bowl
+on(kitchen_table, bananas)          | put the bananas on the kitchen table
+on(kitchen_table, juice)            | put the juice on the kitchen table
+on(kitchen_table, water_glass)      | put the water glass on the kitchen table
+has(user, juice)                    | give the juice to the user
+has(user, apple)                    | give an apple to the user
+]
+
+[  % 2  Fresh Produce Storage
+open(fridge)                        | open the fridge
+inside(fridge, apple)               | put an apple into the fridge
+inside(fridge, peach)               | put a peach into the fridge
+inside(fridge, bananas)             | put the bananas into the fridge
+inside(fridge, juice)               | put the juice into the fridge
+on(kitchen_table, water_glass)      | put the water glass on the kitchen table
+has(user, bananas)                  | give the bananas to the user
+closed(fridge)                      | close the fridge
+]
+
+[  % 3  Midday Fruit Snack
+on(dish_bowl, apple)                | put an apple in the bowl
+on(kitchen_table, bananas)          | put the bananas on the kitchen table
+on(kitchen_table, juice)            | put the juice on the kitchen table
+on(kitchen_table, water_glass)      | put the water glass on the kitchen table
+on(kitchen_table, crackers)         | put the crackers on the kitchen table
+has(user, apple)                    | give an apple to the user
+has(user, juice)                    | give the juice to the user
+has(user, crackers)                 | give the crackers to the user
+]
+
+[  % 4  Sofa Reading with Fruits
+on(sofa, classic_novel)             | put the classic novel on the sofa
+switched_on(table_lamp)             | switch on the table lamp
+on(coffee_table, bananas)           | put the bananas on the coffee table
+on(coffee_table, water_glass)       | put the water glass on the coffee table
+has(user, classic_novel)            | give the classic novel to the user
+has(user, bananas)                  | give the bananas to the user
+has(user, water_glass)              | give the water glass to the user
+switched_off(table_lamp)            | switch off the table lamp
+]
+
+[  % 5  Evening Fruit Bowl Prep
+on(dish_bowl, apple)                | put an apple in the bowl
+on(dish_bowl, peach)                | put a peach in the bowl
+on(dish_bowl, cereal)               | put the cereal in the bowl
+on(kitchen_table, bananas)          | put the bananas on the kitchen table
+on(kitchen_table, juice)            | put the juice on the kitchen table
+on(kitchen_table, water_glass)      | put the water glass on the kitchen table
+has(user, juice)                    | give the juice to the user
+has(user, bananas)                  | give the bananas to the user
+]
+
+[  % 6  Fridge Organization
+open(fridge)                        | open the fridge
+inside(fridge, milk)                | put the milk into the fridge
+inside(fridge, juice)               | put the juice into the fridge
+inside(fridge, apple)               | put an apple into the fridge
+inside(fridge, peach)               | put a peach into the fridge
+inside(fridge, bananas)             | put the bananas into the fridge
+closed(fridge)                      | close the fridge
+on(kitchen_table, water_glass)      | put the water glass on the kitchen table
+]
+
+[  % 7  Afternoon Fruit Bowl
+on(dish_bowl, apple)                | put an apple in the bowl
+on(dish_bowl, peach)                | put a peach in the bowl
+on(dish_bowl, cereal)               | put the cereal in the bowl
+on(kitchen_table, juice)            | put the juice on the kitchen table
+on(kitchen_table, water_glass)      | put the water glass on the kitchen table
+has(user, apple)                    | give an apple to the user
+has(user, juice)                    | give the juice to the user
+has(user, water_glass)              | give the water glass to the user
+]
+
+[  % 8  Desk Work with Healthy Snacks
+on(desk, magazine)                  | put the magazine on the desk
+on(desk, apple)                     | put an apple on the desk
+on(desk, water_glass)               | put the water glass on the desk
+switched_on(table_lamp)             | switch on the table lamp
+has(user, magazine)                 | give the magazine to the user
+has(user, apple)                    | give an apple to the user
+has(user, water_glass)              | give the water glass to the user
+switched_off(table_lamp)            | switch off the table lamp
+]
+
+[  % 9  Morning Kitchen Prep
+open(fridge)                        | open the fridge
+inside(fridge, milk)                | put the milk into the fridge
+inside(fridge, juice)               | put the juice into the fridge
+closed(fridge)                      | close the fridge
+on(dish_bowl, apple)                | put an apple in the bowl
+on(dish_bowl, peach)                | put a peach in the bowl
+has(user, apple)                    | give an apple to the user
+has(user, juice)                    | give the juice to the user
+]
+
+[  % 10  Sofa Novel Time
+on(sofa, fantasy_novel)             | put the fantasy novel on the sofa
+switched_on(table_lamp)             | switch on the table lamp
+on(coffee_table, water_glass)       | put the water glass on the coffee table
+on(coffee_table, bananas)           | put the bananas on the coffee table
+has(user, fantasy_novel)            | give the fantasy novel to the user
+has(user, water_glass)              | give the water glass to the user
+has(user, bananas)                  | give the bananas to the user
+switched_off(table_lamp)            | switch off the table lamp
+]
+
+[  % 11  Fruit Bowl Variety
+on(dish_bowl, apple)                | put an apple in the bowl
+on(dish_bowl, peach)                | put a peach in the bowl
+on(dish_bowl, cereal)               | put the cereal in the bowl
+on(kitchen_table, bananas)          | put the bananas on the kitchen table
+on(kitchen_table, juice)            | put the juice on the kitchen table
+on(kitchen_table, water_glass)      | put the water glass on the kitchen table
+has(user, juice)                    | give the juice to the user
+has(user, water_glass)              | give the water glass to the user
+]
+
+[  % 12  Kitchen Counter Prep
+on(kitchen_table, plate)            | put the plate on the kitchen table
+on(dish_bowl, apple)                | put an apple in the bowl
+on(dish_bowl, peach)                | put a peach in the bowl
+on(kitchen_table, bananas)          | put the bananas on the kitchen table
+on(kitchen_table, juice)            | put the juice on the kitchen table
+on(kitchen_table, water_glass)      | put the water glass on the kitchen table
+on(kitchen_table, crackers)         | put the crackers on the kitchen table
+has(user, plate)                    | give the plate to the user
+]
+
+[  % 13  Evening Fridge Restock
+open(fridge)                        | open the fridge
+inside(fridge, juice)               | put the juice into the fridge
+inside(fridge, apple)               | put an apple into the fridge
+inside(fridge, peach)               | put a peach into the fridge
+inside(fridge, bananas)             | put the bananas into the fridge
+inside(fridge, milk)                | put the milk into the fridge
+closed(fridge)                      | close the fridge
+on(kitchen_table, water_glass)      | put the water glass on the kitchen table
+]
+
+[  % 14  Desk Notes Session
+on(desk, notes)                     | put the notes on the desk
+on(desk, folder)                    | put the folder on the desk
+on(desk, water_glass)               | put the water glass on the desk
+switched_on(table_lamp)             | switch on the table lamp
+has(user, notes)                    | give the notes to the user
+has(user, water_glass)              | give the water glass to the user
+on(desk, apple)                     | put an apple on the desk
+switched_off(table_lamp)            | switch off the table lamp
+]
+
+[  % 15  Quick Fruit Snack
+on(dish_bowl, apple)                | put an apple in the bowl
+on(kitchen_table, bananas)          | put the bananas on the kitchen table
+on(kitchen_table, juice)            | put the juice on the kitchen table
+on(kitchen_table, water_glass)      | put the water glass on the kitchen table
+has(user, apple)                    | give an apple to the user
+has(user, juice)                    | give the juice to the user
+has(user, water_glass)              | give the water glass to the user
+has(user, bananas)                  | give the bananas to the user
+]
+
+[  % 16  Sofa Reading Break
+on(sofa, sci_fi_novel)              | put the sci-fi novel on the sofa
+switched_on(table_lamp)             | switch on the table lamp
+on(coffee_table, water_glass)       | put the water glass on the coffee table
+on(coffee_table, crackers)          | put the crackers on the coffee table
+has(user, sci_fi_novel)             | give the sci-fi novel to the user
+has(user, crackers)                 | give the crackers to the user
+has(user, water_glass)              | give the water glass to the user
+switched_off(table_lamp)            | switch off the table lamp
+]
+
+[  % 17  Morning Fruit Storage
+open(fridge)                        | open the fridge
+inside(fridge, bananas)             | put the bananas into the fridge
+inside(fridge, apple)               | put an apple into the fridge
+inside(fridge, peach)               | put a peach into the fridge
+inside(fridge, juice)               | put the juice into the fridge
+on(kitchen_table, water_glass)      | put the water glass on the kitchen table
+has(user, water_glass)              | give the water glass to the user
+closed(fridge)                      | close the fridge
+]
+
+[  % 18  Desk Magazine Reading
+on(desk, magazine)                  | put the magazine on the desk
+on(desk, water_glass)               | put the water glass on the desk
+switched_on(table_lamp)             | switch on the table lamp
+has(user, magazine)                 | give the magazine to the user
+has(user, water_glass)              | give the water glass to the user
+on(desk, apple)                     | put an apple on the desk
+has(user, apple)                    | give an apple to the user
+switched_off(table_lamp)            | switch off the table lamp
+]
+
+[  % 19  Afternoon Fruit Bowl Mix
+on(dish_bowl, apple)                | put an apple in the bowl
+on(dish_bowl, peach)                | put a peach in the bowl
+on(dish_bowl, cereal)               | put the cereal in the bowl
+on(kitchen_table, bananas)          | put the bananas on the kitchen table
+on(kitchen_table, juice)            | put the juice on the kitchen table
+on(kitchen_table, water_glass)      | put the water glass on the kitchen table
+has(user, bananas)                  | give the bananas to the user
+has(user, juice)                    | give the juice to the user
+]
+
+[  % 20  Evening Sofa Comfort
+on(sofa, classic_novel)             | put the classic novel on the sofa
+switched_on(table_lamp)             | switch on the table lamp
+on(coffee_table, water_glass)       | put the water glass on the coffee table
+on(coffee_table, bananas)           | put the bananas on the coffee table
+has(user, classic_novel)            | give the classic novel to the user
+has(user, water_glass)              | give the water glass to the user
+has(user, bananas)                  | give the bananas to the user
+switched_off(table_lamp)            | switch off the table lamp
+]

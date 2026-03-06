@@ -1,0 +1,220 @@
+[  % 1
+on(sofa, classic_novel) | put the classic novel on the sofa
+on(tv_stand, notes) | put the study_item on the tv_stand
+on(desk_1, folder) | put the study_item on desk 1
+on(kitchen_table, coffee) | put the drink on the kitchen_table
+has(user, classic_novel) | give the book to the user
+has(user, coffee) | give the drink to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 2
+on(sofa, computer_science_textbook) | put the computer science textbook on the sofa
+on(tv_stand, notes) | put the study_item on the tv_stand
+on(desk_1, folder) | put the study_item on desk 1
+on(kitchen_table, espresso) | put the drink on the kitchen_table
+has(user, computer_science_textbook) | give the study_item to the user
+has(user, espresso) | give the drink to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 3
+on(sofa, physics_textbook) | put the physics textbook on the sofa
+on(tv_stand, notes) | put the study_item on the tv_stand
+on(desk_1, folder) | put the study_item on desk 1
+on(coffee_table, milk) | put the drink on the coffee_table
+has(user, physics_textbook) | give the study_item to the user
+has(user, milk) | give the drink to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 4
+on(sofa, fantasy_novel) | put the fantasy novel on the sofa
+on(tv_stand, folder) | put the study_item on the tv_stand
+on(desk_1, cellphone) | put the study_item on desk 1
+on(coffee_table, juice) | put the drink on the coffee_table
+has(user, fantasy_novel) | give the book to the user
+has(user, juice) | give the drink to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 5
+on(sofa, sci_fi_novel) | put the sci-fi novel on the sofa
+on(tv_stand, notes) | put the study_item on the tv_stand
+on(desk_1, magazine) | put the study_item on desk 1
+on(kitchen_table, water_glass) | put the drinkware on the kitchen_table
+has(user, sci_fi_novel) | give the book to the user
+has(user, water_glass) | give the drinkware to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 6
+on(sofa, classic_novel) | put the classic novel on the sofa
+on(tv_stand, notes) | put the study_item on the tv_stand
+on(desk_1, folder) | put the study_item on desk 1
+on(kitchen_table, espresso) | put the drink on the kitchen_table
+has(user, classic_novel) | give the book to the user
+has(user, espresso) | give the drink to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 7
+on(sofa, computer_science_textbook) | put the computer science textbook on the sofa
+on(tv_stand, notes) | put the study_item on the tv_stand
+on(desk_1, folder) | put the study_item on desk 1
+on(kitchen_table, coffee) | put the drink on the kitchen_table
+has(user, computer_science_textbook) | give the study_item to the user
+has(user, coffee) | give the drink to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 8
+on(sofa, physics_textbook) | put the physics textbook on the sofa
+on(tv_stand, notes) | put the study_item on the tv_stand
+on(desk_1, folder) | put the study_item on desk 1
+on(coffee_table, juice) | put the drink on the coffee_table
+has(user, physics_textbook) | give the study_item to the user
+has(user, juice) | give the drink to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 9
+on(sofa, fantasy_novel) | put the fantasy novel on the sofa
+on(tv_stand, folder) | put the study_item on the tv_stand
+on(desk_1, cellphone) | put the study_item on desk 1
+on(coffee_table, milk) | put the drink on the coffee_table
+has(user, fantasy_novel) | give the book to the user
+has(user, milk) | give the drink to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 10
+on(sofa, sci_fi_novel) | put the sci-fi novel on the sofa
+on(tv_stand, notes) | put the study_item on the tv_stand
+on(desk_1, magazine) | put the study_item on desk 1
+on(kitchen_table, coffee) | put the drink on the kitchen_table
+has(user, sci_fi_novel) | give the book to the user
+has(user, coffee) | give the drink to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 11
+on(sofa, classic_novel) | put the classic novel on the sofa
+on(tv_stand, notes) | put the study_item on the tv_stand
+on(desk_1, folder) | put the study_item on desk 1
+on(kitchen_table, coffee) | put the drink on the kitchen_table
+has(user, classic_novel) | give the book to the user
+has(user, coffee) | give the drink to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 12
+on(sofa, computer_science_textbook) | put the computer science textbook on the sofa
+on(tv_stand, notes) | put the study_item on the tv_stand
+on(desk_1, folder) | put the study_item on desk 1
+on(kitchen_table, espresso) | put the drink on the kitchen_table
+has(user, computer_science_textbook) | give the study_item to the user
+has(user, espresso) | give the drink to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 13
+on(sofa, physics_textbook) | put the physics textbook on the sofa
+on(tv_stand, notes) | put the study_item on the tv_stand
+on(desk_1, folder) | put the study_item on desk 1
+on(kitchen_table, water_glass) | put the drinkware on the kitchen_table
+has(user, physics_textbook) | give the study_item to the user
+has(user, water_glass) | give the drinkware to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 14
+on(sofa, fantasy_novel) | put the fantasy novel on the sofa
+on(tv_stand, folder) | put the study_item on the tv_stand
+on(desk_1, cellphone) | put the study_item on desk 1
+on(coffee_table, juice) | put the drink on the coffee_table
+has(user, fantasy_novel) | give the book to the user
+has(user, juice) | give the drink to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 15
+on(sofa, sci_fi_novel) | put the sci-fi novel on the sofa
+on(tv_stand, notes) | put the study_item on the tv_stand
+on(desk_1, magazine) | put the study_item on desk 1
+on(coffee_table, milk) | put the drink on the coffee_table
+has(user, sci_fi_novel) | give the book to the user
+has(user, milk) | give the drink to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 16
+on(sofa, classic_novel) | put the classic novel on the sofa
+on(tv_stand, notes) | put the study_item on the tv_stand
+on(desk_1, folder) | put the study_item on desk 1
+on(kitchen_table, espresso) | put the drink on the kitchen_table
+has(user, classic_novel) | give the book to the user
+has(user, espresso) | give the drink to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 17
+on(sofa, computer_science_textbook) | put the computer science textbook on the sofa
+on(tv_stand, notes) | put the study_item on the tv_stand
+on(desk_1, folder) | put the study_item on desk 1
+on(kitchen_table, coffee) | put the drink on the kitchen_table
+has(user, computer_science_textbook) | give the study_item to the user
+has(user, coffee) | give the drink to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 18
+on(sofa, physics_textbook) | put the physics textbook on the sofa
+on(tv_stand, notes) | put the study_item on the tv_stand
+on(desk_1, folder) | put the study_item on desk 1
+on(coffee_table, milk) | put the drink on the coffee_table
+has(user, physics_textbook) | give the study_item to the user
+has(user, milk) | give the drink to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 19
+on(sofa, fantasy_novel) | put the fantasy novel on the sofa
+on(tv_stand, folder) | put the study_item on the tv_stand
+on(desk_1, cellphone) | put the study_item on desk 1
+on(coffee_table, juice) | put the drink on the coffee_table
+has(user, fantasy_novel) | give the book to the user
+has(user, juice) | give the drink to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 20
+on(sofa, sci_fi_novel) | put the sci-fi novel on the sofa
+on(tv_stand, notes) | put the study_item on the tv_stand
+on(desk_1, magazine) | put the study_item on desk 1
+on(kitchen_table, water_glass) | put the drinkware on the kitchen_table
+has(user, sci_fi_novel) | give the book to the user
+has(user, water_glass) | give the drinkware to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+

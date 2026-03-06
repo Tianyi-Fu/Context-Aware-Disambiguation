@@ -1,0 +1,220 @@
+[  % 1
+on(kitchen_table, espresso) | put the espresso on the kitchen table
+on(kitchen_table, mug) | put the item on the kitchen_table
+on(dish_bowl, apple) | put the item in the bowl
+on(coffee_table, cereal) | put the item on the coffee_table
+has(user, espresso) | give the item to the user
+has(user, mug) | give the item to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 2
+open(fridge) | open the fridge
+inside(fridge, milk) | put the item into the fridge
+inside(fridge, juice) | put the item into the fridge
+inside(fridge, alcohol) | put the item into the fridge
+closed(fridge) | close the inside_furniture
+on(kitchen_table, cup) | put the item on the kitchen_table
+on(dish_bowl, bananas) | put the item in the bowl
+has(user, cup) | give the item to the user
+]
+
+[  % 3
+on(kitchen_table, coffee) | put the coffee on the kitchen table
+on(kitchen_table, cup) | put the item on the kitchen_table
+on(coffee_table, cereal) | put the item on the coffee_table
+on(dish_bowl, apple) | put the item in the bowl
+has(user, coffee) | give the item to the user
+has(user, cup) | give the item to the user
+on(kitchen_table, plate) | put the item on the kitchen_table
+has(user, apple) | give the item to the user
+]
+
+[  % 4
+on(kitchen_table, juice) | put the juice on the kitchen table
+on(kitchen_table, cup) | put the item on the kitchen_table
+on(coffee_table, pound_cake) | put the item on the coffee_table
+on(dish_bowl, apple) | put the item in the bowl
+has(user, juice) | give the item to the user
+has(user, cup) | give the item to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 5
+open(fridge) | open the fridge
+inside(fridge, milk) | put the item into the fridge
+inside(fridge, juice) | put the item into the fridge
+closed(fridge) | close the inside_furniture
+on(kitchen_table, espresso) | put the item on the kitchen_table
+on(kitchen_table, mug) | put the item on the kitchen_table
+has(user, espresso) | give the item to the user
+has(user, mug) | give the item to the user
+]
+
+[  % 6
+on(kitchen_table, espresso) | put the espresso on the kitchen table
+on(kitchen_table, mug) | put the item on the kitchen_table
+on(dish_bowl, apple) | put the item in the bowl
+on(coffee_table, cereal) | put the item on the coffee_table
+has(user, espresso) | give the item to the user
+has(user, mug) | give the item to the user
+on(kitchen_table, milk) | put the item on the kitchen_table
+has(user, apple) | give the item to the user
+]
+
+[  % 7
+open(fridge) | open the fridge
+inside(fridge, milk) | put the item into the fridge
+inside(fridge, juice) | put the item into the fridge
+inside(fridge, alcohol) | put the item into the fridge
+closed(fridge) | close the inside_furniture
+on(kitchen_table, cup) | put the item on the kitchen_table
+on(dish_bowl, bananas) | put the item in the bowl
+has(user, cup) | give the item to the user
+]
+
+[  % 8
+on(kitchen_table, coffee) | put the coffee on the kitchen table
+on(kitchen_table, cup) | put the item on the kitchen_table
+on(coffee_table, cupcake) | put the item on the coffee_table
+on(dish_bowl, apple) | put the item in the bowl
+has(user, coffee) | give the item to the user
+has(user, cup) | give the item to the user
+on(kitchen_table, plate) | put the item on the kitchen_table
+has(user, apple) | give the item to the user
+]
+
+[  % 9
+on(kitchen_table, juice) | put the juice on the kitchen table
+on(kitchen_table, cup) | put the item on the kitchen_table
+on(coffee_table, pound_cake) | put the item on the coffee_table
+on(dish_bowl, bananas) | put the item in the bowl
+has(user, juice) | give the item to the user
+has(user, cup) | give the item to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 10
+open(fridge) | open the fridge
+inside(fridge, milk) | put the item into the fridge
+inside(fridge, juice) | put the item into the fridge
+closed(fridge) | close the inside_furniture
+on(kitchen_table, coffee) | put the item on the kitchen_table
+on(kitchen_table, cup) | put the item on the kitchen_table
+has(user, coffee) | give the item to the user
+has(user, cup) | give the item to the user
+]
+
+[  % 11
+on(kitchen_table, espresso) | put the espresso on the kitchen table
+on(kitchen_table, mug) | put the item on the kitchen_table
+on(coffee_table, cereal) | put the item on the coffee_table
+on(dish_bowl, apple) | put the item in the bowl
+has(user, espresso) | give the item to the user
+has(user, mug) | give the item to the user
+on(kitchen_table, plate) | put the item on the kitchen_table
+has(user, apple) | give the item to the user
+]
+
+[  % 12
+open(fridge) | open the fridge
+inside(fridge, alcohol) | put the item into the fridge
+inside(fridge, juice) | put the item into the fridge
+inside(fridge, milk) | put the item into the fridge
+closed(fridge) | close the inside_furniture
+on(kitchen_table, cup) | put the item on the kitchen_table
+on(dish_bowl, apple) | put the item in the bowl
+has(user, cup) | give the item to the user
+]
+
+[  % 13
+on(kitchen_table, coffee) | put the coffee on the kitchen table
+on(kitchen_table, cup) | put the item on the kitchen_table
+on(coffee_table, cereal) | put the item on the coffee_table
+on(dish_bowl, bananas) | put the item in the bowl
+has(user, coffee) | give the item to the user
+has(user, cup) | give the item to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 14
+on(kitchen_table, juice) | put the juice on the kitchen table
+on(kitchen_table, cup) | put the item on the kitchen_table
+on(coffee_table, pound_cake) | put the item on the coffee_table
+on(dish_bowl, apple) | put the item in the bowl
+has(user, juice) | give the item to the user
+has(user, cup) | give the item to the user
+on(kitchen_table, milk) | put the item on the kitchen_table
+has(user, apple) | give the item to the user
+]
+
+[  % 15
+open(fridge) | open the fridge
+inside(fridge, milk) | put the item into the fridge
+inside(fridge, alcohol) | put the item into the fridge
+inside(fridge, juice) | put the item into the fridge
+closed(fridge) | close the inside_furniture
+on(kitchen_table, espresso) | put the item on the kitchen_table
+on(kitchen_table, mug) | put the item on the kitchen_table
+has(user, espresso) | give the item to the user
+]
+
+[  % 16
+on(kitchen_table, coffee) | put the coffee on the kitchen table
+on(kitchen_table, cup) | put the item on the kitchen_table
+on(coffee_table, cereal) | put the item on the coffee_table
+on(dish_bowl, apple) | put the item in the bowl
+has(user, coffee) | give the item to the user
+has(user, cup) | give the item to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 17
+open(fridge) | open the fridge
+inside(fridge, milk) | put the item into the fridge
+inside(fridge, juice) | put the item into the fridge
+closed(fridge) | close the inside_furniture
+on(kitchen_table, espresso) | put the item on the kitchen_table
+on(kitchen_table, mug) | put the item on the kitchen_table
+has(user, mug) | give the item to the user
+has(user, espresso) | give the item to the user
+]
+
+[  % 18
+on(kitchen_table, juice) | put the juice on the kitchen table
+on(kitchen_table, cup) | put the item on the kitchen_table
+on(coffee_table, pound_cake) | put the item on the coffee_table
+on(dish_bowl, bananas) | put the item in the bowl
+has(user, juice) | give the item to the user
+has(user, cup) | give the item to the user
+on(kitchen_table, plate) | put the item on the kitchen_table
+has(user, bananas) | give the item to the user
+]
+
+[  % 19
+on(kitchen_table, alcohol) | put the alcohol on the kitchen table
+on(kitchen_table, mug) | put the item on the kitchen_table
+on(coffee_table, pound_cake) | put the item on the coffee_table
+on(dish_bowl, peach) | put the item in the bowl
+has(user, alcohol) | give the item to the user
+has(user, mug) | give the item to the user
+switched_on(table_lamp) | switch on the switch_furniture
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 20
+open(fridge) | open the fridge
+inside(fridge, milk) | put the item into the fridge
+inside(fridge, juice) | put the item into the fridge
+inside(fridge, alcohol) | put the item into the fridge
+closed(fridge) | close the inside_furniture
+on(kitchen_table, coffee) | put the item on the kitchen_table
+on(kitchen_table, cup) | put the item on the kitchen_table
+has(user, coffee) | give the item to the user
+]
+

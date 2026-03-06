@@ -1,0 +1,1 @@
+{show_changed_holds_name(apple), show_changed_holds_name(dish_bowl)}

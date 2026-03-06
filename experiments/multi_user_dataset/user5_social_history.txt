@@ -1,0 +1,219 @@
+[  % 1  User5 Social 1
+on(tv_stand, cellphone)              | put the cellphone on the tv stand
+on(sofa, magazine)                   | put the magazine on the sofa
+on(coffee_table, water_glass)        | put the water glass on the coffee table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+has(user, cellphone)                 | give the cellphone to the user
+has(user, magazine)                  | give the magazine to the user
+has(user, crackers)                  | give the crackers to the user
+has(user, water_glass)               | give the water glass to the user
+]
+
+[  % 2  User5 Social 2
+on(coffee_table, cup)                | put the cup on the coffee table
+on(kitchen_table, mug)               | put the mug on the kitchen table
+on(kitchen_table, juice)             | put the juice on the kitchen table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+has(user, juice)                     | give the juice to the user
+has(user, cup)                       | give the cup to the user
+has(user, mug)                       | give the mug to the user
+on(sofa, magazine)                   | put the magazine on the sofa
+]
+
+[  % 3  User5 Social 3
+on(kitchen_table, alcohol)           | put the alcohol on the kitchen table
+on(coffee_table, water_glass)        | put the water glass on the coffee table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+has(user, alcohol)                   | give the alcohol to the user
+has(user, water_glass)               | give the water glass to the user
+has(user, crackers)                  | give the crackers to the user
+on(tv_stand, magazine)               | put the magazine on the tv stand
+has(user, magazine)                  | give the magazine to the user
+]
+
+[  % 4  User5 Social 4
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, superhero_comic)            | put the superhero comic on the sofa
+on(coffee_table, water_glass)        | put the water glass on the coffee table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+has(user, superhero_comic)           | give the superhero comic to the user
+has(user, water_glass)               | give the water glass to the user
+has(user, crackers)                  | give the crackers to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 5  User5 Social 5
+on(tv_stand, cellphone)              | put the cellphone on the tv stand
+on(sofa, magazine)                   | put the magazine on the sofa
+on(coffee_table, water_glass)        | put the water glass on the coffee table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+has(user, cellphone)                 | give the cellphone to the user
+has(user, magazine)                  | give the magazine to the user
+has(user, crackers)                  | give the crackers to the user
+has(user, water_glass)               | give the water glass to the user
+]
+
+[  % 6  User5 Social 6
+on(coffee_table, cup)                | put the cup on the coffee table
+on(kitchen_table, mug)               | put the mug on the kitchen table
+on(kitchen_table, juice)             | put the juice on the kitchen table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+has(user, juice)                     | give the juice to the user
+has(user, cup)                       | give the cup to the user
+has(user, mug)                       | give the mug to the user
+on(sofa, magazine)                   | put the magazine on the sofa
+]
+
+[  % 7  User5 Social 7
+on(kitchen_table, alcohol)           | put the alcohol on the kitchen table
+on(coffee_table, water_glass)        | put the water glass on the coffee table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+has(user, alcohol)                   | give the alcohol to the user
+has(user, water_glass)               | give the water glass to the user
+has(user, crackers)                  | give the crackers to the user
+on(tv_stand, magazine)               | put the magazine on the tv stand
+has(user, magazine)                  | give the magazine to the user
+]
+
+[  % 8  User5 Social 8
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, superhero_comic)            | put the superhero comic on the sofa
+on(coffee_table, water_glass)        | put the water glass on the coffee table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+has(user, superhero_comic)           | give the superhero comic to the user
+has(user, water_glass)               | give the water glass to the user
+has(user, crackers)                  | give the crackers to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 9  User5 Social 9
+on(tv_stand, cellphone)              | put the cellphone on the tv stand
+on(sofa, magazine)                   | put the magazine on the sofa
+on(coffee_table, water_glass)        | put the water glass on the coffee table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+has(user, cellphone)                 | give the cellphone to the user
+has(user, magazine)                  | give the magazine to the user
+has(user, crackers)                  | give the crackers to the user
+has(user, water_glass)               | give the water glass to the user
+]
+
+[  % 10  User5 Social 10
+on(coffee_table, cup)                | put the cup on the coffee table
+on(kitchen_table, mug)               | put the mug on the kitchen table
+on(kitchen_table, juice)             | put the juice on the kitchen table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+has(user, juice)                     | give the juice to the user
+has(user, cup)                       | give the cup to the user
+has(user, mug)                       | give the mug to the user
+on(sofa, magazine)                   | put the magazine on the sofa
+]
+
+[  % 11  User5 Social 11
+on(kitchen_table, alcohol)           | put the alcohol on the kitchen table
+on(coffee_table, water_glass)        | put the water glass on the coffee table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+has(user, alcohol)                   | give the alcohol to the user
+has(user, water_glass)               | give the water glass to the user
+has(user, crackers)                  | give the crackers to the user
+on(tv_stand, magazine)               | put the magazine on the tv stand
+has(user, magazine)                  | give the magazine to the user
+]
+
+[  % 12  User5 Social 12
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, superhero_comic)            | put the superhero comic on the sofa
+on(coffee_table, water_glass)        | put the water glass on the coffee table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+has(user, superhero_comic)           | give the superhero comic to the user
+has(user, water_glass)               | give the water glass to the user
+has(user, crackers)                  | give the crackers to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 13  User5 Social 13
+on(tv_stand, cellphone)              | put the cellphone on the tv stand
+on(sofa, magazine)                   | put the magazine on the sofa
+on(coffee_table, water_glass)        | put the water glass on the coffee table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+has(user, cellphone)                 | give the cellphone to the user
+has(user, magazine)                  | give the magazine to the user
+has(user, crackers)                  | give the crackers to the user
+has(user, water_glass)               | give the water glass to the user
+]
+
+[  % 14  User5 Social 14
+on(coffee_table, cup)                | put the cup on the coffee table
+on(kitchen_table, mug)               | put the mug on the kitchen table
+on(kitchen_table, juice)             | put the juice on the kitchen table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+has(user, juice)                     | give the juice to the user
+has(user, cup)                       | give the cup to the user
+has(user, mug)                       | give the mug to the user
+on(sofa, magazine)                   | put the magazine on the sofa
+]
+
+[  % 15  User5 Social 15
+on(kitchen_table, alcohol)           | put the alcohol on the kitchen table
+on(coffee_table, water_glass)        | put the water glass on the coffee table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+has(user, alcohol)                   | give the alcohol to the user
+has(user, water_glass)               | give the water glass to the user
+has(user, crackers)                  | give the crackers to the user
+on(tv_stand, magazine)               | put the magazine on the tv stand
+has(user, magazine)                  | give the magazine to the user
+]
+
+[  % 16  User5 Social 16
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, superhero_comic)            | put the superhero comic on the sofa
+on(coffee_table, water_glass)        | put the water glass on the coffee table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+has(user, superhero_comic)           | give the superhero comic to the user
+has(user, water_glass)               | give the water glass to the user
+has(user, crackers)                  | give the crackers to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 17  User5 Social 17
+on(tv_stand, cellphone)              | put the cellphone on the tv stand
+on(sofa, magazine)                   | put the magazine on the sofa
+on(coffee_table, water_glass)        | put the water glass on the coffee table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+has(user, cellphone)                 | give the cellphone to the user
+has(user, magazine)                  | give the magazine to the user
+has(user, crackers)                  | give the crackers to the user
+has(user, water_glass)               | give the water glass to the user
+]
+
+[  % 18  User5 Social 18
+on(coffee_table, cup)                | put the cup on the coffee table
+on(kitchen_table, mug)               | put the mug on the kitchen table
+on(kitchen_table, juice)             | put the juice on the kitchen table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+has(user, juice)                     | give the juice to the user
+has(user, cup)                       | give the cup to the user
+has(user, mug)                       | give the mug to the user
+on(sofa, magazine)                   | put the magazine on the sofa
+]
+
+[  % 19  User5 Social 19
+on(kitchen_table, alcohol)           | put the alcohol on the kitchen table
+on(coffee_table, water_glass)        | put the water glass on the coffee table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+has(user, alcohol)                   | give the alcohol to the user
+has(user, water_glass)               | give the water glass to the user
+has(user, crackers)                  | give the crackers to the user
+on(tv_stand, magazine)               | put the magazine on the tv stand
+has(user, magazine)                  | give the magazine to the user
+]
+
+[  % 20  User5 Social 20
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, superhero_comic)            | put the superhero comic on the sofa
+on(coffee_table, water_glass)        | put the water glass on the coffee table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+has(user, superhero_comic)           | give the superhero comic to the user
+has(user, water_glass)               | give the water glass to the user
+has(user, crackers)                  | give the crackers to the user
+switched_off(table_lamp)             | switch off the table lamp
+]

@@ -1,0 +1,1332 @@
+@prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Action a rdfs:Class .
+
+ex:Agent a rdfs:Class .
+
+ex:Book a rdfs:Class ;
+    rdfs:subClassOf ex:Item .
+
+ex:Bottle a rdfs:Class ;
+    rdfs:subClassOf ex:Item .
+
+ex:Breakfast a rdfs:Class ;
+    rdfs:subClassOf ex:Food .
+
+ex:ColdDrink a rdfs:Class ;
+    rdfs:subClassOf ex:Drink .
+
+ex:ContainerFurniture a rdfs:Class ;
+    rdfs:subClassOf ex:Furniture .
+
+ex:Context a rdfs:Class .
+
+ex:ContextWeight a rdfs:Class .
+
+ex:Drink a rdfs:Class ;
+    rdfs:subClassOf ex:Item .
+
+ex:Drinkware a rdfs:Class ;
+    rdfs:subClassOf ex:Item .
+
+ex:Food a rdfs:Class ;
+    rdfs:subClassOf ex:Item .
+
+ex:Fruit a rdfs:Class ;
+    rdfs:subClassOf ex:Food .
+
+ex:Furniture a rdfs:Class .
+
+ex:HotDrink a rdfs:Class ;
+    rdfs:subClassOf ex:Drink .
+
+ex:HotFood a rdfs:Class ;
+    rdfs:subClassOf ex:Food .
+
+ex:InsideFurniture a rdfs:Class ;
+    rdfs:subClassOf ex:ContainerFurniture .
+
+ex:Item a rdfs:Class .
+
+ex:Light a rdfs:Class ;
+    rdfs:subClassOf ex:SwitchFurniture .
+
+ex:Meal a rdfs:Class ;
+    rdfs:subClassOf ex:Food .
+
+ex:MicrowaveFurniture a rdfs:Class ;
+    rdfs:subClassOf ex:InsideFurniture,
+        ex:SwitchFurniture .
+
+ex:OnFurniture a rdfs:Class ;
+    rdfs:subClassOf ex:ContainerFurniture .
+
+ex:Room a rdfs:Class .
+
+ex:Snack a rdfs:Class ;
+    rdfs:subClassOf ex:Food .
+
+ex:State a rdfs:Class .
+
+ex:StudyItem a rdfs:Class ;
+    rdfs:subClassOf ex:Item .
+
+ex:SwitchFurniture a rdfs:Class ;
+    rdfs:subClassOf ex:Furniture .
+
+ex:Tableware a rdfs:Class ;
+    rdfs:subClassOf ex:Item .
+
+ex:Tool a rdfs:Class ;
+    rdfs:subClassOf ex:Item .
+
+ex:User a rdfs:Class .
+
+ex:Heated a ex:State .
+
+ex:Open a ex:State .
+
+ex:agent1 a ex:Agent ;
+    ex:in ex:living_room .
+
+ex:alcohol a ex:ColdDrink,
+        ex:Item ;
+    ex:hasContextWeight [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0071 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0066 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0027 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.004 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0075 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0038 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0056 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0027 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.9476 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0124 ] ;
+    ex:id 248 ;
+    ex:on ex:coffee_table ;
+    ex:temperature "cold" .
+
+ex:apple a ex:Fruit,
+        ex:Item ;
+    ex:color "red" ;
+    ex:hasContextWeight [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0047 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0024 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0047 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0033 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.9499 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0029 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0196 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.004 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0051 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0035 ] ;
+    ex:id 249 ;
+    ex:on ex:coffee_table .
+
+ex:atFurniture a rdf:Property ;
+    rdfs:range ex:Furniture .
+
+ex:bananas a ex:Fruit,
+        ex:Item ;
+    ex:color "yellow" ;
+    ex:hasContextWeight [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.967 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0021 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0022 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0026 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0025 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.008 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0031 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.006 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0042 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0022 ] ;
+    ex:id 251 ;
+    ex:on ex:dish_bowl .
+
+ex:bathroom a ex:Room ;
+    rdfs:label "Bathroom" ;
+    ex:id 11 .
+
+ex:cellphone a ex:Item,
+        ex:StudyItem ;
+    ex:hasContextWeight [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0027 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.043 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.9111 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0033 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.0036 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0016 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.005 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0034 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0244 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0019 ] ;
+    ex:id 268 ;
+    ex:on ex:coffee_table .
+
+ex:cereal a ex:Food,
+        ex:Item,
+        ex:Snack ;
+    ex:hasContextWeight [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0018 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0022 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.002 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0024 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0045 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0026 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0027 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.9747 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0059 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0012 ] ;
+    ex:id 195 ;
+    ex:on ex:kitchen_table .
+
+ex:changed a rdf:Property ;
+    rdfs:range xsd:boolean .
+
+ex:chicken a ex:HotFood,
+        ex:Item,
+        ex:Meal ;
+    ex:hasContextWeight [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0016 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0025 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0067 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0017 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.003 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0119 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0019 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0027 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.9644 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0035 ] ;
+    ex:heated false ;
+    ex:id 172 ;
+    ex:on ex:kitchen_counter .
+
+ex:classic_novel a ex:Item,
+        ex:Novel ;
+    ex:genre "classic" ;
+    ex:hasContextWeight [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0017 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0011 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0028 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.1025 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.0057 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0043 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0218 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.8151 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0007 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0443 ] ;
+    ex:id 400 ;
+    ex:inside ex:bookshelf ;
+    ex:texture "paper" .
+
+ex:coffee a ex:HotDrink,
+        ex:Item ;
+    ex:hasContextWeight [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0094 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0039 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0076 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0033 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.93 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0235 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0055 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0063 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0053 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0052 ] ;
+    ex:heated false ;
+    ex:id 321 ;
+    ex:on ex:desk ;
+    ex:temperature "hot" .
+
+ex:color a rdf:Property .
+
+ex:computer_science_textbook a ex:Item,
+        ex:Textbook ;
+    ex:hasContextWeight [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.2164 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0011 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0007 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0215 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.003 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0012 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0049 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0082 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.7351 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0079 ] ;
+    ex:id 405,
+        407 ;
+    ex:inside ex:bookshelf .
+
+ex:context a rdf:Property ;
+    rdfs:range ex:Context .
+
+ex:crackers a ex:Food,
+        ex:Item,
+        ex:Snack ;
+    ex:hasContextWeight [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0032 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0029 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0051 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0057 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.004 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.9573 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0031 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0119 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0039 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0031 ] ;
+    ex:id 269 ;
+    ex:on ex:tv_stand ;
+    ex:taste "salty" .
+
+ex:cup a ex:Drinkware,
+        ex:Item ;
+    ex:hasContextWeight [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.1284 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.1217 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0128 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0065 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0187 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.5992 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0445 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0148 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.008 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0454 ] ;
+    ex:id 410 ;
+    ex:on ex:desk .
+
+ex:cupcake a ex:Food,
+        ex:Item,
+        ex:Snack ;
+    ex:hasContextWeight [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.9591 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0019 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0036 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.004 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0093 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0041 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0084 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0024 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0037 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0035 ] ;
+    ex:id 320 ;
+    ex:on ex:desk ;
+    ex:taste "sweet" .
+
+ex:cutlets a ex:HotFood,
+        ex:Item,
+        ex:Meal ;
+    ex:hasContextWeight [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.9667 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0031 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.003 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.002 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0023 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0038 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0043 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0029 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0095 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0025 ] ;
+    ex:heated false ;
+    ex:id 173 ;
+    ex:on ex:kitchen_counter .
+
+ex:espresso a ex:HotDrink,
+        ex:Item ;
+    ex:hasContextWeight [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0045 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0189 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0073 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0082 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.931 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0116 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0043 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0058 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0045 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0039 ] ;
+    ex:heated false ;
+    ex:id 430 ;
+    ex:on ex:coffee_table ;
+    ex:temperature "hot" .
+
+ex:expectsObjectType a rdf:Property ;
+    rdfs:range ex:Item .
+
+ex:fantasy_novel a ex:Item,
+        ex:Novel ;
+    ex:genre "fantasy" ;
+    ex:hasContextWeight [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0012 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.002 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0265 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0775 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0991 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.7765 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0016 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.004 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0058 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.006 ] ;
+    ex:id 402 ;
+    ex:inside ex:bookshelf .
+
+ex:folder a ex:Item,
+        ex:StudyItem ;
+    ex:hasContextWeight [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0484 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0032 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0032 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0034 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0042 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.8278 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0014 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.006 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0205 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.082 ] ;
+    ex:id 115 ;
+    ex:inside ex:bookshelf .
+
+ex:fridge a ex:Furniture,
+        ex:InsideFurniture ;
+    ex:changed false ;
+    ex:furniture_location ex:kitchen ;
+    ex:hasContextWeight [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0751 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.01 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.1252 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.0881 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0356 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0173 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0188 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.2866 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.254 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0894 ] ;
+    ex:id 165 ;
+    ex:open false .
+
+ex:furniture_location a rdf:Property ;
+    rdfs:range ex:Room .
+
+ex:genre a rdf:Property .
+
+ex:give a ex:Action ;
+    rdfs:label "Give an item to the user" ;
+    ex:expectsObjectType ex:User .
+
+ex:grab a ex:Action ;
+    rdfs:label "Grab an item from furniture" ;
+    ex:expectsObjectType ex:Item .
+
+ex:graphic_memoir a ex:Comic,
+        ex:Item ;
+    ex:hasContextWeight [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0009 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0552 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.0063 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0011 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.8173 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0168 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0908 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0017 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0043 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0056 ] ;
+    ex:id 404 ;
+    ex:inside ex:bookshelf .
+
+ex:has a rdf:Property ;
+    rdfs:label "Agent possesses an item" ;
+    ex:expectsObjectType ex:Item .
+
+ex:hasContextWeight a rdf:Property .
+
+ex:heated a rdf:Property ;
+    rdfs:range xsd:boolean .
+
+ex:id a rdf:Property ;
+    rdfs:range rdfs:Literal .
+
+ex:importanceWeight a rdf:Property ;
+    rdfs:range rdfs:Literal .
+
+ex:in a rdf:Property ;
+    rdfs:label "Agent is in a specific room" ;
+    ex:expectsObjectType ex:Room .
+
+ex:inside a rdf:Property ;
+    rdfs:label "Item is inside a specific furniture" ;
+    ex:expectsObjectType ex:Furniture .
+
+ex:juice a ex:ColdDrink,
+        ex:Item ;
+    ex:hasContextWeight [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0048 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.9384 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0063 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0044 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0053 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0163 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0069 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0074 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0068 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0035 ] ;
+    ex:id 321 ;
+    ex:on ex:desk ;
+    ex:temperature "cold" .
+
+ex:location a rdf:Property ;
+    rdfs:label "Defines the location of an item or furniture" ;
+    ex:expectsObjectType ex:Furniture .
+
+ex:magazine a ex:Item,
+        ex:StudyItem ;
+    ex:hasContextWeight [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.0048 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0013 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.029 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0031 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0078 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.1104 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0024 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0064 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.8183 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0165 ] ;
+    ex:id 358 ;
+    ex:on ex:audio_amplifier .
+
+ex:microwave a ex:Furniture,
+        ex:InsideFurniture,
+        ex:MicrowaveFurniture,
+        ex:SwitchFurniture ;
+    ex:changed false ;
+    ex:furniture_location ex:kitchen ;
+    ex:hasContextWeight [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.0836 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0462 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.037 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0584 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.1765 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.5376 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0148 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0196 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0197 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0065 ] ;
+    ex:id 166 ;
+    ex:open false ;
+    ex:switched_on false .
+
+ex:milk a ex:HotDrink,
+        ex:Item ;
+    ex:color "white" ;
+    ex:hasContextWeight [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0061 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0032 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0038 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0114 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0091 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.9472 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0051 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0068 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0033 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0038 ] ;
+    ex:heated false ;
+    ex:id 194 ;
+    ex:on ex:kitchen_table ;
+    ex:temperature "cold" .
+
+ex:mug a ex:Drinkware,
+        ex:Item ;
+    ex:hasContextWeight [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.1162 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0342 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0905 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0453 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.4042 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0194 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.091 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0185 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0351 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.1457 ] ;
+    ex:id 260 ;
+    ex:on ex:coffee_table .
+
+ex:notes a ex:Item,
+        ex:StudyItem ;
+    ex:hasContextWeight [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0085 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0005 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0156 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0004 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.0011 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0002 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0006 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.9701 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0004 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0027 ] ;
+    ex:id 120 ;
+    ex:inside ex:bookshelf .
+
+ex:on a rdf:Property ;
+    rdfs:label "Item is on a specific furniture" ;
+    ex:expectsObjectType ex:Furniture .
+
+ex:open a rdf:Property ;
+    rdfs:range xsd:boolean .
+
+ex:peach a ex:Fruit,
+        ex:Item ;
+    ex:hasContextWeight [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0034 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0089 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.95 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0032 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0033 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0069 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0021 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0125 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0046 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.005 ] ;
+    ex:id 254 ;
+    ex:on ex:coffee_table ;
+    ex:texture "fuzzy" .
+
+ex:physics_textbook a ex:Item,
+        ex:Textbook ;
+    ex:hasContextWeight [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0037 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0014 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.003 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.1949 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.012 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0016 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0065 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.0046 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0332 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.739 ] ;
+    ex:id 406,
+        408 ;
+    ex:inside ex:bookshelf .
+
+ex:plate a ex:Item,
+        ex:Tableware ;
+    ex:hasContextWeight [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.018 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0125 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0391 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0036 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0211 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0063 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0761 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.8143 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0057 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0033 ] ;
+    ex:id 99 ;
+    ex:on ex:kitchen_counter .
+
+ex:pound_cake a ex:Food,
+        ex:Item,
+        ex:Snack ;
+    ex:hasContextWeight [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0062 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.007 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.013 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.01 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0055 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0156 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0147 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.9122 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0045 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0112 ] ;
+    ex:id 175 ;
+    ex:on ex:kitchen_table ;
+    ex:taste "sweet" .
+
+ex:put a ex:Action ;
+    rdfs:label "Place an item on furniture" ;
+    ex:expectsObjectType ex:Furniture .
+
+ex:putin a ex:Action ;
+    rdfs:label "Put an item inside furniture" ;
+    ex:expectsObjectType ex:Furniture .
+
+ex:sci_fi_novel a ex:Item,
+        ex:Novel ;
+    ex:genre "sci-fi" ;
+    ex:hasContextWeight [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0279 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.7788 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.0058 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0063 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0916 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0011 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.08 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0022 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0042 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.002 ] ;
+    ex:id 401 ;
+    ex:on ex:desk .
+
+ex:sofa a ex:Furniture,
+        ex:OnFurniture ;
+    ex:furniture_location ex:living_room ;
+    ex:hasContextWeight [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0501 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.8035 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0065 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0092 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0378 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0197 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0282 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0041 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.0351 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0058 ] ;
+    ex:id 247 .
+
+ex:superhero_comic a ex:Comic,
+        ex:Item ;
+    ex:hasContextWeight [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0044 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0019 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.8049 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.0049 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0009 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0253 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0674 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0058 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0017 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.083 ] ;
+    ex:id 403 ;
+    ex:inside ex:bookshelf .
+
+ex:switched_off a rdf:Property ;
+    rdfs:label "Defines if a switchable furniture is switched off" ;
+    ex:expectsObjectType ex:Furniture .
+
+ex:switched_on a rdf:Property ;
+    rdfs:range xsd:boolean .
+
+ex:switchoff a ex:Action ;
+    rdfs:label "Switch off furniture" ;
+    ex:expectsObjectType ex:Furniture .
+
+ex:switchon a ex:Action ;
+    rdfs:label "Switch on furniture" ;
+    ex:expectsObjectType ex:Furniture .
+
+ex:table_lamp a ex:Furniture,
+        ex:Light,
+        ex:SwitchFurniture ;
+    ex:furniture_location ex:living_room ;
+    ex:hasContextWeight [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0055 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0014 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0012 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.001 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0026 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.9809 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0006 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0013 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.001 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.0046 ] ;
+    ex:id 220 ;
+    ex:switched_on false .
+
+ex:taste a rdf:Property .
+
+ex:temperature a rdf:Property .
+
+ex:texture a rdf:Property .
+
+ex:user a ex:User ;
+    ex:location ex:living_room ;
+    ex:user_location ex:living_room .
+
+ex:user_location a rdf:Property ;
+    rdfs:range ex:Room .
+
+ex:walk a ex:Action ;
+    rdfs:label "Move to another room" ;
+    ex:expectsObjectType ex:Room .
+
+ex:walktowards a ex:Action ;
+    rdfs:label "Move towards furniture or user" ;
+    ex:expectsObjectType ex:Furniture .
+
+ex:water_glass a ex:Drinkware,
+        ex:Item ;
+    ex:hasContextWeight [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.2273 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0331 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0445 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0209 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0182 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.4742 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0586 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.059 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0411 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0231 ] ;
+    ex:id 258 ;
+    ex:on ex:desk_1 ;
+    ex:texture "smooth" .
+
+ex:audio_amplifier a ex:Furniture,
+        ex:OnFurniture ;
+    ex:furniture_location ex:bedroom ;
+    ex:hasContextWeight [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.1352 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.0151 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0379 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0251 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0413 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0405 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0239 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.6271 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0274 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0264 ] ;
+    ex:id 335 .
+
+ex:desk_1 a ex:Furniture,
+        ex:OnFurniture ;
+    ex:furniture_location ex:living_room ;
+    ex:hasContextWeight [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0831 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.0364 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0251 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0051 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0146 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0663 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0028 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0658 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.6948 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0061 ] ;
+    ex:id 243 .
+
+ex:dish_bowl a ex:Furniture,
+        ex:OnFurniture ;
+    ex:furniture_location ex:living_room ;
+    ex:hasContextWeight [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.1527 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0151 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0566 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0051 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.003 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0079 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0046 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0321 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.011 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.712 ] ;
+    ex:id 257 .
+
+ex:tv_stand a ex:Furniture,
+        ex:OnFurniture ;
+    ex:furniture_location ex:living_room ;
+    ex:hasContextWeight [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.3954 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0085 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0109 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.4012 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.014 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0573 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.0488 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0224 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0138 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0278 ] ;
+    ex:id 234 .
+
+ex:Comic rdfs:subClassOf ex:Book .
+
+ex:Textbook rdfs:subClassOf ex:Book,
+        ex:StudyItem .
+
+ex:Novel rdfs:subClassOf ex:Book .
+
+ex:bedroom a ex:Room ;
+    rdfs:label "Bedroom" ;
+    ex:id 282 .
+
+ex:kitchen_counter a ex:Furniture,
+        ex:OnFurniture ;
+    ex:furniture_location ex:kitchen ;
+    ex:hasContextWeight [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.2006 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0043 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0534 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.1427 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0518 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0128 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.5009 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0144 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0033 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0158 ] ;
+    ex:id 140 .
+
+ex:kitchen_table a ex:Furniture,
+        ex:OnFurniture ;
+    ex:furniture_location ex:kitchen ;
+    ex:hasContextWeight [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0041 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0877 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0081 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0024 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.6941 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.027 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0093 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0906 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0611 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0155 ] ;
+    ex:id 129 .
+
+ex:kitchen a ex:Room ;
+    rdfs:label "Kitchen" ;
+    ex:id 56 .
+
+ex:desk a ex:Furniture,
+        ex:OnFurniture ;
+    ex:furniture_location ex:bedroom ;
+    ex:hasContextWeight [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.8075 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.0376 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.0241 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0088 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0028 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0112 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0016 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.041 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.003 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0623 ] ;
+    ex:id 314 .
+
+ex:coffee_table a ex:Furniture,
+        ex:OnFurniture ;
+    ex:furniture_location ex:bedroom ;
+    ex:hasContextWeight [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.009 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0142 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0152 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0068 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.5047 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0167 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.0246 ],
+        [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.1287 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.2544 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.0258 ] ;
+    ex:id 246 .
+
+ex:bookshelf a ex:Furniture,
+        ex:InsideFurniture ;
+    ex:changed false ;
+    ex:furniture_location ex:living_room ;
+    ex:hasContextWeight [ ex:context ex:DiningContext ;
+            ex:importanceWeight 0.0207 ],
+        [ ex:context ex:CleaningContext ;
+            ex:importanceWeight 0.07 ],
+        [ ex:context ex:RelaxationContext ;
+            ex:importanceWeight 0.0205 ],
+        [ ex:context ex:ReadingContext ;
+            ex:importanceWeight 0.0372 ],
+        [ ex:context ex:LightingContext ;
+            ex:importanceWeight 0.0255 ],
+        [ ex:context ex:WorkContext ;
+            ex:importanceWeight 0.0079 ],
+        [ ex:context ex:StudyingContext ;
+            ex:importanceWeight 0.1451 ],
+        [ ex:context ex:CookingContext ;
+            ex:importanceWeight 0.0045 ],
+        [ ex:context ex:StorageContext ;
+            ex:importanceWeight 0.6525 ],
+        [ ex:context ex:EntertainmentContext ;
+            ex:importanceWeight 0.0162 ] ;
+    ex:id 245 ;
+    ex:open true .
+
+ex:living_room a ex:Room ;
+    rdfs:label "Living Room" ;
+    ex:id 197 .
+
+ex:CleaningContext a ex:Context .
+
+ex:CookingContext a ex:Context .
+
+ex:DiningContext a ex:Context .
+
+ex:EntertainmentContext a ex:Context .
+
+ex:LightingContext a ex:Context .
+
+ex:ReadingContext a ex:Context .
+
+ex:RelaxationContext a ex:Context .
+
+ex:StorageContext a ex:Context .
+
+ex:StudyingContext a ex:Context .
+
+ex:WorkContext a ex:Context .

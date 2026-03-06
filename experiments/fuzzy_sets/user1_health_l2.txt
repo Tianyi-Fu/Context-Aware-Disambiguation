@@ -1,0 +1,220 @@
+[  % 1
+on(dish_bowl, apple) | put an apple in the bowl
+on(dish_bowl, peach) | put a food in the bowl
+on(dish_bowl, cereal) | put the food in the bowl
+on(kitchen_table, bananas) | put the food on the kitchen_table
+on(kitchen_table, juice) | put the drink on the kitchen_table
+on(coffee_table, water_glass) | put the item on the coffee_table
+has(user, juice) | give the drink to the user
+has(user, apple) | give a food to the user
+]
+
+[  % 2
+open(fridge) | open the fridge
+inside(fridge, apple) | put a food into the fridge
+inside(fridge, peach) | put a food into the fridge
+inside(fridge, bananas) | put the food into the fridge
+inside(fridge, juice) | put the drink into the fridge
+on(kitchen_table, water_glass) | put the item on the kitchen_table
+has(user, bananas) | give the food to the user
+closed(fridge) | close the inside_furniture
+]
+
+[  % 3
+on(dish_bowl, apple) | put an apple in the bowl
+on(kitchen_table, bananas) | put the food on the kitchen_table
+on(kitchen_table, juice) | put the drink on the kitchen_table
+on(coffee_table, water_glass) | put the item on the coffee_table
+on(kitchen_table, crackers) | put the food on the kitchen_table
+has(user, apple) | give a food to the user
+has(user, juice) | give the drink to the user
+has(user, crackers) | give the food to the user
+]
+
+[  % 4
+on(sofa, classic_novel) | put the classic novel on the sofa
+switched_on(table_lamp) | switch on the switch_furniture
+on(coffee_table, bananas) | put the food on the coffee_table
+on(kitchen_table, water_glass) | put the item on the kitchen_table
+has(user, classic_novel) | give the book to the user
+has(user, bananas) | give the food to the user
+has(user, water_glass) | give the item to the user
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 5
+on(dish_bowl, apple) | put an apple in the bowl
+on(dish_bowl, peach) | put a food in the bowl
+on(dish_bowl, cereal) | put the food in the bowl
+on(kitchen_table, bananas) | put the food on the kitchen_table
+on(kitchen_table, juice) | put the drink on the kitchen_table
+on(coffee_table, water_glass) | put the item on the coffee_table
+has(user, juice) | give the drink to the user
+has(user, bananas) | give the food to the user
+]
+
+[  % 6
+open(fridge) | open the fridge
+inside(fridge, milk) | put the drink into the fridge
+inside(fridge, juice) | put the drink into the fridge
+inside(fridge, apple) | put a food into the fridge
+inside(fridge, peach) | put a food into the fridge
+inside(fridge, bananas) | put the food into the fridge
+closed(fridge) | close the inside_furniture
+on(kitchen_table, water_glass) | put the item on the kitchen_table
+]
+
+[  % 7
+on(dish_bowl, apple) | put an apple in the bowl
+on(dish_bowl, peach) | put a food in the bowl
+on(dish_bowl, cereal) | put the food in the bowl
+on(kitchen_table, juice) | put the drink on the kitchen_table
+on(coffee_table, water_glass) | put the item on the coffee_table
+has(user, apple) | give a food to the user
+has(user, juice) | give the drink to the user
+has(user, water_glass) | give the item to the user
+]
+
+[  % 8
+on(desk, magazine) | put the magazine on the desk
+on(desk, apple) | put a food on the desk
+on(desk, water_glass) | put the item on the desk
+switched_on(table_lamp) | switch on the switch_furniture
+has(user, magazine) | give the item to the user
+has(user, apple) | give a food to the user
+has(user, water_glass) | give the item to the user
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 9
+open(fridge) | open the fridge
+inside(fridge, milk) | put the drink into the fridge
+inside(fridge, juice) | put the drink into the fridge
+closed(fridge) | close the inside_furniture
+on(dish_bowl, apple) | put a food in the bowl
+on(dish_bowl, peach) | put a food in the bowl
+has(user, apple) | give a food to the user
+has(user, juice) | give the drink to the user
+]
+
+[  % 10
+on(sofa, fantasy_novel) | put the fantasy novel on the sofa
+switched_on(table_lamp) | switch on the switch_furniture
+on(kitchen_table, water_glass) | put the item on the kitchen_table
+on(coffee_table, bananas) | put the food on the coffee_table
+has(user, fantasy_novel) | give the book to the user
+has(user, water_glass) | give the item to the user
+has(user, bananas) | give the food to the user
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 11
+on(dish_bowl, apple) | put an apple in the bowl
+on(dish_bowl, peach) | put a food in the bowl
+on(dish_bowl, cereal) | put the food in the bowl
+on(kitchen_table, bananas) | put the food on the kitchen_table
+on(kitchen_table, juice) | put the drink on the kitchen_table
+on(kitchen_table, water_glass) | put the item on the kitchen_table
+has(user, juice) | give the drink to the user
+has(user, water_glass) | give the item to the user
+]
+
+[  % 12
+on(kitchen_table, plate) | put the plate on the kitchen table
+on(dish_bowl, apple) | put a food in the bowl
+on(dish_bowl, peach) | put a food in the bowl
+on(kitchen_table, bananas) | put the food on the kitchen_table
+on(kitchen_table, juice) | put the drink on the kitchen_table
+on(kitchen_table, water_glass) | put the item on the kitchen_table
+on(kitchen_table, crackers) | put the food on the kitchen_table
+has(user, plate) | give the item to the user
+]
+
+[  % 13
+open(fridge) | open the fridge
+inside(fridge, juice) | put the drink into the fridge
+inside(fridge, apple) | put a food into the fridge
+inside(fridge, peach) | put a food into the fridge
+inside(fridge, bananas) | put the food into the fridge
+inside(fridge, milk) | put the drink into the fridge
+closed(fridge) | close the inside_furniture
+on(kitchen_table, water_glass) | put the item on the kitchen_table
+]
+
+[  % 14
+on(desk, notes) | put the notes on the desk
+on(desk, folder) | put the item on the desk
+on(desk, water_glass) | put the item on the desk
+switched_on(table_lamp) | switch on the switch_furniture
+has(user, notes) | give the item to the user
+has(user, water_glass) | give the item to the user
+on(desk, apple) | put a food on the desk
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 15
+on(dish_bowl, apple) | put an apple in the bowl
+on(kitchen_table, bananas) | put the food on the kitchen_table
+on(kitchen_table, juice) | put the drink on the kitchen_table
+on(kitchen_table, water_glass) | put the item on the kitchen_table
+has(user, apple) | give a food to the user
+has(user, juice) | give the drink to the user
+has(user, water_glass) | give the item to the user
+has(user, bananas) | give the food to the user
+]
+
+[  % 16
+on(sofa, sci_fi_novel) | put the sci-fi novel on the sofa
+switched_on(table_lamp) | switch on the switch_furniture
+on(kitchen_table, water_glass) | put the item on the kitchen_table
+on(coffee_table, crackers) | put the food on the coffee_table
+has(user, sci_fi_novel) | give the book to the user
+has(user, crackers) | give the food to the user
+has(user, water_glass) | give the item to the user
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 17
+open(fridge) | open the fridge
+inside(fridge, bananas) | put the food into the fridge
+inside(fridge, apple) | put a food into the fridge
+inside(fridge, peach) | put a food into the fridge
+inside(fridge, juice) | put the drink into the fridge
+on(kitchen_table, water_glass) | put the item on the kitchen_table
+has(user, water_glass) | give the item to the user
+closed(fridge) | close the inside_furniture
+]
+
+[  % 18
+on(desk, magazine) | put the magazine on the desk
+on(desk, water_glass) | put the item on the desk
+switched_on(table_lamp) | switch on the switch_furniture
+has(user, magazine) | give the item to the user
+has(user, water_glass) | give the item to the user
+on(desk, apple) | put a food on the desk
+has(user, apple) | give a food to the user
+switched_off(table_lamp) | switch off the switch_furniture
+]
+
+[  % 19
+on(dish_bowl, apple) | put an apple in the bowl
+on(dish_bowl, peach) | put a food in the bowl
+on(dish_bowl, cereal) | put the food in the bowl
+on(kitchen_table, bananas) | put the food on the kitchen_table
+on(kitchen_table, juice) | put the drink on the kitchen_table
+on(kitchen_table, water_glass) | put the item on the kitchen_table
+has(user, bananas) | give the food to the user
+has(user, juice) | give the drink to the user
+]
+
+[  % 20
+on(sofa, classic_novel) | put the classic novel on the sofa
+switched_on(table_lamp) | switch on the switch_furniture
+on(kitchen_table, water_glass) | put the item on the kitchen_table
+on(coffee_table, bananas) | put the food on the coffee_table
+has(user, classic_novel) | give the book to the user
+has(user, water_glass) | give the item to the user
+has(user, bananas) | give the food to the user
+switched_off(table_lamp) | switch off the switch_furniture
+]
+

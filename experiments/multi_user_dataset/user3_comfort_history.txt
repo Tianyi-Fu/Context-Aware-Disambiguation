@@ -1,0 +1,219 @@
+[  % 1  User3 Comfort 1
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, classic_novel)        | put the classic novel on the sofa
+on(coffee_table, water_glass)  | put the water glass on the coffee table
+on(coffee_table, cereal)       | put the cereal on the coffee table
+on(tv_stand, magazine)         | put the magazine on the tv stand
+has(user, classic_novel)       | give the classic novel to the user
+has(user, water_glass)         | give the water glass to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 2  User3 Comfort 2
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, sci_fi_novel)         | put the sci-fi novel on the sofa
+on(coffee_table, cup)          | put the cup on the coffee table
+on(coffee_table, cupcake)      | put the cupcake on the coffee table
+on(tv_stand, notes)            | put the notes on the tv stand
+has(user, sci_fi_novel)        | give the sci-fi novel to the user
+has(user, cup)                 | give the cup to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 3  User3 Comfort 3
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, fantasy_novel)        | put the fantasy novel on the sofa
+on(coffee_table, mug)          | put the mug on the coffee table
+on(coffee_table, crackers)     | put the crackers on the coffee table
+on(tv_stand, folder)           | put the folder on the tv stand
+has(user, fantasy_novel)       | give the fantasy novel to the user
+has(user, crackers)            | give the crackers to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 4  User3 Comfort 4
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, superhero_comic)      | put the superhero comic on the sofa
+on(coffee_table, water_glass)  | put the water glass on the coffee table
+on(coffee_table, pound_cake)   | put the pound cake on the coffee table
+on(tv_stand, magazine)         | put the magazine on the tv stand
+has(user, superhero_comic)     | give the superhero comic to the user
+has(user, water_glass)         | give the water glass to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 5  User3 Comfort 5
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, graphic_memoir)       | put the graphic memoir on the sofa
+on(coffee_table, cup)          | put the cup on the coffee table
+on(coffee_table, cereal)       | put the cereal on the coffee table
+on(tv_stand, notes)            | put the notes on the tv stand
+has(user, graphic_memoir)      | give the graphic memoir to the user
+has(user, cup)                 | give the cup to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 6  User3 Comfort 6
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, classic_novel)        | put the classic novel on the sofa
+on(coffee_table, mug)          | put the mug on the coffee table
+on(coffee_table, cupcake)      | put the cupcake on the coffee table
+on(tv_stand, folder)           | put the folder on the tv stand
+has(user, classic_novel)       | give the classic novel to the user
+has(user, cupcake)             | give the cupcake to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 7  User3 Comfort 7
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, sci_fi_novel)         | put the sci-fi novel on the sofa
+on(coffee_table, water_glass)  | put the water glass on the coffee table
+on(coffee_table, crackers)     | put the crackers on the coffee table
+on(tv_stand, magazine)         | put the magazine on the tv stand
+has(user, sci_fi_novel)        | give the sci-fi novel to the user
+has(user, water_glass)         | give the water glass to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 8  User3 Comfort 8
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, fantasy_novel)        | put the fantasy novel on the sofa
+on(coffee_table, cup)          | put the cup on the coffee table
+on(coffee_table, pound_cake)   | put the pound cake on the coffee table
+on(tv_stand, notes)            | put the notes on the tv stand
+has(user, fantasy_novel)       | give the fantasy novel to the user
+has(user, cup)                 | give the cup to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 9  User3 Comfort 9
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, superhero_comic)      | put the superhero comic on the sofa
+on(coffee_table, mug)          | put the mug on the coffee table
+on(coffee_table, cereal)       | put the cereal on the coffee table
+on(tv_stand, folder)           | put the folder on the tv stand
+has(user, superhero_comic)     | give the superhero comic to the user
+has(user, cereal)              | give the cereal to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 10  User3 Comfort 10
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, graphic_memoir)       | put the graphic memoir on the sofa
+on(coffee_table, water_glass)  | put the water glass on the coffee table
+on(coffee_table, cupcake)      | put the cupcake on the coffee table
+on(tv_stand, magazine)         | put the magazine on the tv stand
+has(user, graphic_memoir)      | give the graphic memoir to the user
+has(user, water_glass)         | give the water glass to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 11  User3 Comfort 11
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, classic_novel)        | put the classic novel on the sofa
+on(coffee_table, cup)          | put the cup on the coffee table
+on(coffee_table, crackers)     | put the crackers on the coffee table
+on(tv_stand, notes)            | put the notes on the tv stand
+has(user, classic_novel)       | give the classic novel to the user
+has(user, cup)                 | give the cup to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 12  User3 Comfort 12
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, sci_fi_novel)         | put the sci-fi novel on the sofa
+on(coffee_table, mug)          | put the mug on the coffee table
+on(coffee_table, pound_cake)   | put the pound cake on the coffee table
+on(tv_stand, folder)           | put the folder on the tv stand
+has(user, sci_fi_novel)        | give the sci-fi novel to the user
+has(user, pound_cake)          | give the pound cake to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 13  User3 Comfort 13
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, fantasy_novel)        | put the fantasy novel on the sofa
+on(coffee_table, water_glass)  | put the water glass on the coffee table
+on(coffee_table, cereal)       | put the cereal on the coffee table
+on(tv_stand, magazine)         | put the magazine on the tv stand
+has(user, fantasy_novel)       | give the fantasy novel to the user
+has(user, water_glass)         | give the water glass to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 14  User3 Comfort 14
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, superhero_comic)      | put the superhero comic on the sofa
+on(coffee_table, cup)          | put the cup on the coffee table
+on(coffee_table, cupcake)      | put the cupcake on the coffee table
+on(tv_stand, notes)            | put the notes on the tv stand
+has(user, superhero_comic)     | give the superhero comic to the user
+has(user, cup)                 | give the cup to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 15  User3 Comfort 15
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, graphic_memoir)       | put the graphic memoir on the sofa
+on(coffee_table, mug)          | put the mug on the coffee table
+on(coffee_table, crackers)     | put the crackers on the coffee table
+on(tv_stand, folder)           | put the folder on the tv stand
+has(user, graphic_memoir)      | give the graphic memoir to the user
+has(user, crackers)            | give the crackers to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 16  User3 Comfort 16
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, classic_novel)        | put the classic novel on the sofa
+on(coffee_table, water_glass)  | put the water glass on the coffee table
+on(coffee_table, pound_cake)   | put the pound cake on the coffee table
+on(tv_stand, magazine)         | put the magazine on the tv stand
+has(user, classic_novel)       | give the classic novel to the user
+has(user, water_glass)         | give the water glass to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 17  User3 Comfort 17
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, sci_fi_novel)         | put the sci-fi novel on the sofa
+on(coffee_table, cup)          | put the cup on the coffee table
+on(coffee_table, cereal)       | put the cereal on the coffee table
+on(tv_stand, notes)            | put the notes on the tv stand
+has(user, sci_fi_novel)        | give the sci-fi novel to the user
+has(user, cup)                 | give the cup to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 18  User3 Comfort 18
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, fantasy_novel)        | put the fantasy novel on the sofa
+on(coffee_table, mug)          | put the mug on the coffee table
+on(coffee_table, cupcake)      | put the cupcake on the coffee table
+on(tv_stand, folder)           | put the folder on the tv stand
+has(user, fantasy_novel)       | give the fantasy novel to the user
+has(user, cupcake)             | give the cupcake to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 19  User3 Comfort 19
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, superhero_comic)      | put the superhero comic on the sofa
+on(coffee_table, water_glass)  | put the water glass on the coffee table
+on(coffee_table, crackers)     | put the crackers on the coffee table
+on(tv_stand, magazine)         | put the magazine on the tv stand
+has(user, superhero_comic)     | give the superhero comic to the user
+has(user, water_glass)         | give the water glass to the user
+switched_off(table_lamp)             | switch off the table lamp
+]
+
+[  % 20  User3 Comfort 20
+switched_on(table_lamp)              | switch on the table lamp
+on(sofa, graphic_memoir)       | put the graphic memoir on the sofa
+on(coffee_table, cup)          | put the cup on the coffee table
+on(coffee_table, pound_cake)   | put the pound cake on the coffee table
+on(tv_stand, notes)            | put the notes on the tv stand
+has(user, graphic_memoir)      | give the graphic memoir to the user
+has(user, cup)                 | give the cup to the user
+switched_off(table_lamp)             | switch off the table lamp
+]

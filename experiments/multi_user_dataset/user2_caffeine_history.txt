@@ -1,0 +1,219 @@
+[  % 1  User2 Caffeine 1
+open(microwave)                      | open the microwave
+inside(microwave, espresso)          | put the espresso into the microwave
+heated(espresso)                     | heat the espresso
+closed(microwave)                    | close the microwave
+has(user, espresso)                  | give the espresso to the user
+on(dish_bowl, apple)                 | put an apple in the bowl
+on(kitchen_table, mug)               | put the mug on the kitchen table
+has(user, apple)                     | give the apple to the user
+]
+
+[  % 2  User2 Caffeine 2
+on(kitchen_table, coffee)            | put the coffee on the kitchen table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+on(kitchen_table, bananas)           | put the bananas on the kitchen table
+on(kitchen_table, mug)               | put the mug on the kitchen table
+has(user, coffee)                    | give the coffee to the user
+has(user, crackers)                  | give the crackers to the user
+has(user, bananas)                   | give the bananas to the user
+on(coffee_table, cupcake)            | put the cupcake on the coffee table
+]
+
+[  % 3  User2 Caffeine 3
+open(fridge)                         | open the fridge
+inside(fridge, juice)                | put the juice into the fridge
+inside(fridge, apple)                | put an apple into the fridge
+closed(fridge)                       | close the fridge
+on(kitchen_table, coffee)            | put the coffee on the kitchen table
+on(kitchen_table, mug)               | put the mug on the kitchen table
+has(user, juice)                     | give the juice to the user
+has(user, apple)                     | give the apple to the user
+]
+
+[  % 4  User2 Caffeine 4
+on(dish_bowl, cereal)                | put the cereal in the bowl
+on(coffee_table, cupcake)            | put the cupcake on the coffee table
+on(kitchen_table, coffee)            | put the coffee on the kitchen table
+on(kitchen_table, mug)               | put the mug on the kitchen table
+has(user, cereal)                    | give the cereal to the user
+has(user, cupcake)                   | give the cupcake to the user
+has(user, coffee)                    | give the coffee to the user
+on(coffee_table, crackers)           | put the crackers on the coffee table
+]
+
+[  % 5  User2 Caffeine 5
+open(microwave)                      | open the microwave
+inside(microwave, espresso)          | put the espresso into the microwave
+heated(espresso)                     | heat the espresso
+closed(microwave)                    | close the microwave
+has(user, espresso)                  | give the espresso to the user
+on(dish_bowl, apple)                 | put an apple in the bowl
+on(kitchen_table, mug)               | put the mug on the kitchen table
+has(user, apple)                     | give the apple to the user
+]
+
+[  % 6  User2 Caffeine 6
+on(kitchen_table, coffee)            | put the coffee on the kitchen table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+on(kitchen_table, bananas)           | put the bananas on the kitchen table
+on(kitchen_table, mug)               | put the mug on the kitchen table
+has(user, coffee)                    | give the coffee to the user
+has(user, crackers)                  | give the crackers to the user
+has(user, bananas)                   | give the bananas to the user
+on(coffee_table, cupcake)            | put the cupcake on the coffee table
+]
+
+[  % 7  User2 Caffeine 7
+open(fridge)                         | open the fridge
+inside(fridge, juice)                | put the juice into the fridge
+inside(fridge, apple)                | put an apple into the fridge
+closed(fridge)                       | close the fridge
+on(kitchen_table, coffee)            | put the coffee on the kitchen table
+on(kitchen_table, mug)               | put the mug on the kitchen table
+has(user, juice)                     | give the juice to the user
+has(user, apple)                     | give the apple to the user
+]
+
+[  % 8  User2 Caffeine 8
+on(dish_bowl, cereal)                | put the cereal in the bowl
+on(coffee_table, cupcake)            | put the cupcake on the coffee table
+on(kitchen_table, coffee)            | put the coffee on the kitchen table
+on(kitchen_table, mug)               | put the mug on the kitchen table
+has(user, cereal)                    | give the cereal to the user
+has(user, cupcake)                   | give the cupcake to the user
+has(user, coffee)                    | give the coffee to the user
+on(coffee_table, crackers)           | put the crackers on the coffee table
+]
+
+[  % 9  User2 Caffeine 9
+open(microwave)                      | open the microwave
+inside(microwave, espresso)          | put the espresso into the microwave
+heated(espresso)                     | heat the espresso
+closed(microwave)                    | close the microwave
+has(user, espresso)                  | give the espresso to the user
+on(dish_bowl, apple)                 | put an apple in the bowl
+on(kitchen_table, mug)               | put the mug on the kitchen table
+has(user, apple)                     | give the apple to the user
+]
+
+[  % 10  User2 Caffeine 10
+on(kitchen_table, coffee)            | put the coffee on the kitchen table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+on(kitchen_table, bananas)           | put the bananas on the kitchen table
+on(kitchen_table, mug)               | put the mug on the kitchen table
+has(user, coffee)                    | give the coffee to the user
+has(user, crackers)                  | give the crackers to the user
+has(user, bananas)                   | give the bananas to the user
+on(coffee_table, cupcake)            | put the cupcake on the coffee table
+]
+
+[  % 11  User2 Caffeine 11
+open(fridge)                         | open the fridge
+inside(fridge, juice)                | put the juice into the fridge
+inside(fridge, apple)                | put an apple into the fridge
+closed(fridge)                       | close the fridge
+on(kitchen_table, coffee)            | put the coffee on the kitchen table
+on(kitchen_table, mug)               | put the mug on the kitchen table
+has(user, juice)                     | give the juice to the user
+has(user, apple)                     | give the apple to the user
+]
+
+[  % 12  User2 Caffeine 12
+on(dish_bowl, cereal)                | put the cereal in the bowl
+on(coffee_table, cupcake)            | put the cupcake on the coffee table
+on(kitchen_table, coffee)            | put the coffee on the kitchen table
+on(kitchen_table, mug)               | put the mug on the kitchen table
+has(user, cereal)                    | give the cereal to the user
+has(user, cupcake)                   | give the cupcake to the user
+has(user, coffee)                    | give the coffee to the user
+on(coffee_table, crackers)           | put the crackers on the coffee table
+]
+
+[  % 13  User2 Caffeine 13
+open(microwave)                      | open the microwave
+inside(microwave, espresso)          | put the espresso into the microwave
+heated(espresso)                     | heat the espresso
+closed(microwave)                    | close the microwave
+has(user, espresso)                  | give the espresso to the user
+on(dish_bowl, apple)                 | put an apple in the bowl
+on(kitchen_table, mug)               | put the mug on the kitchen table
+has(user, apple)                     | give the apple to the user
+]
+
+[  % 14  User2 Caffeine 14
+on(kitchen_table, coffee)            | put the coffee on the kitchen table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+on(kitchen_table, bananas)           | put the bananas on the kitchen table
+on(kitchen_table, mug)               | put the mug on the kitchen table
+has(user, coffee)                    | give the coffee to the user
+has(user, crackers)                  | give the crackers to the user
+has(user, bananas)                   | give the bananas to the user
+on(coffee_table, cupcake)            | put the cupcake on the coffee table
+]
+
+[  % 15  User2 Caffeine 15
+open(fridge)                         | open the fridge
+inside(fridge, juice)                | put the juice into the fridge
+inside(fridge, apple)                | put an apple into the fridge
+closed(fridge)                       | close the fridge
+on(kitchen_table, coffee)            | put the coffee on the kitchen table
+on(kitchen_table, mug)               | put the mug on the kitchen table
+has(user, juice)                     | give the juice to the user
+has(user, apple)                     | give the apple to the user
+]
+
+[  % 16  User2 Caffeine 16
+on(dish_bowl, cereal)                | put the cereal in the bowl
+on(coffee_table, cupcake)            | put the cupcake on the coffee table
+on(kitchen_table, coffee)            | put the coffee on the kitchen table
+on(kitchen_table, mug)               | put the mug on the kitchen table
+has(user, cereal)                    | give the cereal to the user
+has(user, cupcake)                   | give the cupcake to the user
+has(user, coffee)                    | give the coffee to the user
+on(coffee_table, crackers)           | put the crackers on the coffee table
+]
+
+[  % 17  User2 Caffeine 17
+open(microwave)                      | open the microwave
+inside(microwave, espresso)          | put the espresso into the microwave
+heated(espresso)                     | heat the espresso
+closed(microwave)                    | close the microwave
+has(user, espresso)                  | give the espresso to the user
+on(dish_bowl, apple)                 | put an apple in the bowl
+on(kitchen_table, mug)               | put the mug on the kitchen table
+has(user, apple)                     | give the apple to the user
+]
+
+[  % 18  User2 Caffeine 18
+on(kitchen_table, coffee)            | put the coffee on the kitchen table
+on(coffee_table, crackers)           | put the crackers on the coffee table
+on(kitchen_table, bananas)           | put the bananas on the kitchen table
+on(kitchen_table, mug)               | put the mug on the kitchen table
+has(user, coffee)                    | give the coffee to the user
+has(user, crackers)                  | give the crackers to the user
+has(user, bananas)                   | give the bananas to the user
+on(coffee_table, cupcake)            | put the cupcake on the coffee table
+]
+
+[  % 19  User2 Caffeine 19
+open(fridge)                         | open the fridge
+inside(fridge, juice)                | put the juice into the fridge
+inside(fridge, apple)                | put an apple into the fridge
+closed(fridge)                       | close the fridge
+on(kitchen_table, coffee)            | put the coffee on the kitchen table
+on(kitchen_table, mug)               | put the mug on the kitchen table
+has(user, juice)                     | give the juice to the user
+has(user, apple)                     | give the apple to the user
+]
+
+[  % 20  User2 Caffeine 20
+on(dish_bowl, cereal)                | put the cereal in the bowl
+on(coffee_table, cupcake)            | put the cupcake on the coffee table
+on(kitchen_table, coffee)            | put the coffee on the kitchen table
+on(kitchen_table, mug)               | put the mug on the kitchen table
+has(user, cereal)                    | give the cereal to the user
+has(user, cupcake)                   | give the cupcake to the user
+has(user, coffee)                    | give the coffee to the user
+on(coffee_table, crackers)           | put the crackers on the coffee table
+]

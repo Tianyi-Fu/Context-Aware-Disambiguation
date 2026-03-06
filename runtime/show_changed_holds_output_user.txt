@@ -1,0 +1,1 @@
+{show_changed_holds(location(apple,bedroom,coffee_table)), show_changed_holds(on(coffee_table,apple)), show_changed_holds(at_furniture(agent1,dish_bowl)), show_changed_holds(location(apple,living_room,dish_bowl)), show_changed_holds(on(dish_bowl,apple))}
