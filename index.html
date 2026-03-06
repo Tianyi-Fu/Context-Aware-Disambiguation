@@ -2,199 +2,182 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="description" content="Context-Aware Disambiguation in Human-Robot Collaboration">
+  <meta name="keywords" content="Disambiguation, Human-Robot Interaction, ASP, Compositional Hierarchy">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Context-Aware Disambiguation in Human-Robot Collaboration</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;700&family=Noto+Sans:wght@400;700&family=Castoro&display=swap" rel="stylesheet">
-  <style>
-    body { font-family: 'Noto Sans', sans-serif; }
 
-    .publication-title {
-      font-family: 'Google Sans', sans-serif;
-      font-weight: bold;
-    }
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
-    .publication-authors {
-      font-family: 'Google Sans', sans-serif;
-    }
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
 
-    .publication-venue {
-      color: #555;
-      font-weight: bold;
-    }
-
-    .link-block a {
-      margin-top: 5px;
-      margin-bottom: 5px;
-    }
-
-    .publication-body {
-      font-size: 1.05rem;
-      text-align: justify;
-      font-family: 'Castoro', serif;
-    }
-
-    .section-title {
-      font-family: 'Google Sans', sans-serif;
-      font-weight: bold;
-      font-size: 2rem;
-      margin-bottom: 1rem;
-    }
-
-    .hero-body {
-      padding-top: 3rem;
-      padding-bottom: 2rem;
-    }
-
-    footer.footer {
-      background-color: #f5f5f5;
-    }
-  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
 </head>
 <body>
 
-<!-- Title / Authors -->
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+</nav>
+
+
 <section class="hero">
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-
-          <h1 class="title is-1 publication-title">
-            Context-Aware Disambiguation in Human-Robot Collaboration
-          </h1>
-
+          <h1 class="title is-1 publication-title">Context-Aware Disambiguation in Human-Robot Collaboration</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">Anonymous Author(s)</span>
           </div>
 
-          <div class="is-size-5 publication-authors" style="margin-top:0.3rem;">
-            <span class="author-block publication-venue">Anonymous Institution(s)</span>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Anonymous Institution(s)</span>
           </div>
 
-          <div class="is-size-5 publication-venue" style="margin-top:0.5rem;">
-            IROS 2026 &mdash; Under Review
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><b>IROS 2026</b></span>
           </div>
 
-          <!-- Buttons -->
-          <div class="column has-text-centered" style="margin-top:1.2rem;">
-            <div class="link-block">
-              <a href="#" class="external-link button is-rounded is-dark">
-                <span>&#128196;&nbsp; Paper</span>
-              </a>
-              &nbsp;
-              <a href="#" class="external-link button is-rounded is-dark">
-                <span>&#9654;&nbsp; YouTube</span>
-              </a>
-              &nbsp;
-              <a href="https://github.com/Tianyi-Fu/Context-Aware-Disambiguation/tree/main" class="external-link button is-rounded is-dark">
-                <span>&#128736;&nbsp; Code</span>
-              </a>
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <span class="link-block">
+                <a href="#"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="#"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>YouTube</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://github.com/Tianyi-Fu/Context-Aware-Disambiguation"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
             </div>
           </div>
-
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Abstract -->
+
 <section class="section">
   <div class="container is-max-desktop">
+    <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="section-title">Abstract</h2>
-        <div class="content publication-body">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
           <p>
-            Embodied home-assistant agents often struggle with ambiguous commands like <em>"bring me a fruit"</em> because user preference data is extremely sparse at the object level. For example, observing a user pick an apple provides no direct evidence about their preference for oranges. Current state-of-the-art approaches such as deep models or Large Language Models (LLMs) compensate for this sparsity by leveraging massive pre-training data. However, they reflect population-level statistical associations rather than the preferences of a specific user in a specific context. How to capture personalized habits from limited interaction history remains an open problem.
+            Embodied home-assistant agents often struggle with ambiguous commands like <i>"bring me a fruit"</i> because user preference data is extremely sparse at the object level. For example, observing a user pick an apple provides no direct evidence about their preference for oranges. Current state-of-the-art approaches such as deep models or Large Language Models (LLMs) compensate for this sparsity by leveraging massive pre-training data. However, they reflect population-level statistical associations rather than the preferences of a specific user in a specific context. How to capture personalized habits from limited interaction history remains an open problem.
           </p>
           <p>
-            We propose a disambiguation architecture based on a hierarchical concept representation. First, entities are decomposed into atomic attributes. We then use an unsupervised, data-driven method to mine significant attribute combinations, forming <em>concepts</em> that represent each entity in a fine-grained and shareable way. By analyzing interaction history at this concept level, the system identifies personalized workflow patterns tied to specific actions that transfer across different entities sharing common characteristics. We integrate this representation with Answer Set Programming (ASP) to track the world state and filter out physically impossible candidates. Finally, the agent fuses semantic compatibility, session salience, and user-specific thematic preference, requesting clarification only when confidence is low. Experiments show that our approach consistently outperforms LLM baselines, particularly in highly personalized scenarios.
+            We propose a disambiguation architecture based on a hierarchical concept representation. First, entities are decomposed into atomic attributes. We then use an unsupervised, data-driven method to mine significant attribute combinations, forming <i>concepts</i> that represent each entity in a fine-grained and shareable way. By analyzing interaction history at this concept level, the system identifies personalized workflow patterns tied to specific actions that transfer across different entities sharing common characteristics. We integrate this representation with Answer Set Programming (ASP) to track the world state and filter out physically impossible candidates. Finally, the agent fuses semantic compatibility, session salience, and user-specific thematic preference, requesting clarification only when confidence is low. Experiments show that our approach consistently outperforms LLM baselines, particularly in highly personalized scenarios.
           </p>
         </div>
       </div>
     </div>
+    <!--/ Abstract. -->
   </div>
 </section>
 
-<!-- Figure 1 -->
-<section class="section" style="padding-top:0;">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column">
-        <figure class="image">
-          <!-- Replace src with your actual figure file -->
-          <img src="docs/figures/fig_motivating.png" alt="Motivating example and system overview" style="border:1px solid #ddd;">
-        </figure>
-        <p style="text-align:center; margin-top:0.6rem; font-size:0.9rem; color:#555;">
-          <strong>Fig. 1.</strong> ASP filters infeasible candidates, compositional concepts map entities to shared attribute bundles, and three signals (semantic, salience, thematic preference) are fused to resolve ambiguous references or trigger clarification.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
 
-<!-- Figure 2 -->
-<section class="section" style="padding-top:0;">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column">
-        <figure class="image">
-          <img src="docs/figures/framework_2.png" alt="Three-stage disambiguation framework" style="border:1px solid #ddd;">
-        </figure>
-        <p style="text-align:center; margin-top:0.6rem; font-size:0.9rem; color:#555;">
-          <strong>Fig. 2.</strong> Three-stage disambiguation framework. Stage 1: The agent parses the ambiguous command and applies ASP-based feasibility filtering using domain knowledge (Σ, Π) to obtain a candidate set C<sub>t</sub>. Stage 2: If |C<sub>t</sub>| &gt; 1, candidates are scored by fusing semantic similarity (S<sub>sem</sub>), session salience (S<sub>sal</sub>), and user-specific thematic preference (S<sub>them</sub>). Stage 3: The agent selects the top candidate if the lead ratio exceeds threshold θ, or invokes human clarification otherwise. Each resolved interaction updates the user history, enabling continuous refinement of learned user preferences.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Figure 3 -->
-<section class="section" style="padding-top:0;">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered">
-      <div class="column">
-        <figure class="image">
-          <img src="docs/figures/compositional_hierarchy.png" alt="Compositional hierarchy and workflow pattern mining" style="border:1px solid #ddd;">
-        </figure>
-        <p style="text-align:center; margin-top:0.6rem; font-size:0.9rem; color:#555;">
-          <strong>Fig. 3.</strong> Overview of the three-layer compositional hierarchy. L0 and L1 are domain-level and constructed before deployment; L2 mines user-specific workflow patterns from interaction snapshots filtered by action predicate. The figure illustrates two example snapshots for <em>switch_on</em>, with the retained pattern c<sub>93</sub> → c<sub>21</sub> indicating that this user tends to select entities with hollow, cylinder, metallic properties after interacting with cuboid, paper, layered entities.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Video -->
 <section class="section">
   <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+
+        <img src="./docs/figures/fig_motivating.png" alt="Motivating example"/>
+        <p class="has-text-centered" style="margin-top: 0.8rem; font-size: 0.9rem; color: #555;">
+          ASP filters infeasible candidates, compositional concepts map entities to shared attribute bundles, and three signals (semantic, salience, thematic preference) are fused to resolve ambiguous references or trigger clarification.
+        </p>
+
+        <br>
+
+        <img src="./docs/figures/framework_2.png" alt="Three-stage framework"/>
+        <p class="has-text-centered" style="margin-top: 0.8rem; font-size: 0.9rem; color: #555;">
+          Three-stage disambiguation framework. Stage 1: ASP-based feasibility filtering obtains candidate set C<sub>t</sub>. Stage 2: If |C<sub>t</sub>| &gt; 1, candidates are scored by fusing S<sub>sem</sub>, S<sub>sal</sub>, and S<sub>them</sub>. Stage 3: The agent selects the top candidate if the lead ratio exceeds threshold &theta;, or invokes human clarification otherwise. Each resolved interaction updates the user history, enabling continuous refinement of learned user preferences.
+        </p>
+
+        <br>
+
+        <img src="./docs/figures/compositional_hierarchy.png" alt="Compositional hierarchy"/>
+        <p class="has-text-centered" style="margin-top: 0.8rem; font-size: 0.9rem; color: #555;">
+          Overview of the three-layer compositional hierarchy. L0 and L1 are domain-level and constructed before deployment; L2 mines user-specific workflow patterns from interaction snapshots filtered by action predicate.
+        </p>
+
+      </div>
+    </div>
+
+    <!-- Video. -->
     <div class="columns is-centered has-text-centered">
-      <div class="column">
-        <h2 class="section-title">Video</h2>
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
         <div class="publication-video">
-          <!-- Replace YOUR_VIDEO_ID with your YouTube video ID -->
-          <iframe width="100%" height="480"
-            src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
-            frameborder="0"
-            allow="autoplay; encrypted-media"
-            allowfullscreen>
-          </iframe>
+          <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID?rel=0&amp;showinfo=0"
+                  frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
     </div>
+    <!--/ Video. -->
+
   </div>
 </section>
 
-<!-- Footer -->
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@inproceedings{anonymous2026disambiguation,
+  author    = {Anonymous},
+  title     = {Context-Aware Disambiguation in Human-Robot Collaboration},
+  booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year      = {2026},
+  note      = {Under review}
+}</code></pre>
+  </div>
+</section>
+
+
 <footer class="footer">
   <div class="container">
     <div class="columns is-centered">
-      <div class="column is-8 has-text-centered">
-        <div class="content">
-
-
+      <div class="column is-8">
+        <div class="content has-text-centered">
+          <p>
+            Anonymous submission &mdash; IROS 2026
+          </p>
         </div>
       </div>
     </div>
