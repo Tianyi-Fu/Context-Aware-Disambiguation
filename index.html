@@ -128,7 +128,7 @@
           <img src="docs/figures/fig_motivating.png" alt="Motivating example and system overview" style="border:1px solid #ddd;">
         </figure>
         <p style="text-align:center; margin-top:0.6rem; font-size:0.9rem; color:#555;">
-          The agent faces the ambiguous command "Put the fruit on the table." Our system (①) filters physically infeasible candidates via ASP, (②) decomposes entities into concept-level representations, and (③) scores remaining candidates using three complementary signals: semantic similarity, session salience, and thematic preference.
+          <strong>Fig. 1.</strong> ASP filters infeasible candidates, compositional concepts map entities to shared attribute bundles, and three signals (semantic, salience, thematic preference) are fused to resolve ambiguous references or trigger clarification.
         </p>
       </div>
     </div>
@@ -141,11 +141,26 @@
     <div class="columns is-centered">
       <div class="column">
         <figure class="image">
-          <!-- Replace src with your pipeline figure -->
+          <img src="docs/figures/framework_2.png" alt="Three-stage disambiguation framework" style="border:1px solid #ddd;">
+        </figure>
+        <p style="text-align:center; margin-top:0.6rem; font-size:0.9rem; color:#555;">
+          <strong>Fig. 2.</strong> Three-stage disambiguation framework. Stage 1: The agent parses the ambiguous command and applies ASP-based feasibility filtering using domain knowledge (Σ, Π) to obtain a candidate set C<sub>t</sub>. Stage 2: If |C<sub>t</sub>| &gt; 1, candidates are scored by fusing semantic similarity (S<sub>sem</sub>), session salience (S<sub>sal</sub>), and user-specific thematic preference (S<sub>them</sub>). Stage 3: The agent selects the top candidate if the lead ratio exceeds threshold θ, or invokes human clarification otherwise. Each resolved interaction updates the user history, enabling continuous refinement of learned user preferences.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Figure 3 -->
+<section class="section" style="padding-top:0;">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column">
+        <figure class="image">
           <img src="docs/figures/compositional_hierarchy.png" alt="Compositional hierarchy and workflow pattern mining" style="border:1px solid #ddd;">
         </figure>
         <p style="text-align:center; margin-top:0.6rem; font-size:0.9rem; color:#555;">
-          The three-layer compositional hierarchy (L0: atomic attributes, L1: domain concepts, L2: workflow patterns) and the process of mining user-specific workflow patterns from interaction history. Statistically significant concept-level co-occurrences are retained as personalized preference patterns.
+          <strong>Fig. 3.</strong> Overview of the three-layer compositional hierarchy. L0 and L1 are domain-level and constructed before deployment; L2 mines user-specific workflow patterns from interaction snapshots filtered by action predicate. The figure illustrates two example snapshots for <em>switch_on</em>, with the retained pattern c<sub>93</sub> → c<sub>21</sub> indicating that this user tends to select entities with hollow, cylinder, metallic properties after interacting with cuboid, paper, layered entities.
         </p>
       </div>
     </div>
