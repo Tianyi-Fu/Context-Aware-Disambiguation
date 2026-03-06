@@ -22,7 +22,7 @@ export OPENAI_API_KEY="your_api_key"
 
 ## Run Modes
 
-1. Single target test (one file only):
+1. Single target test:
 
 ```bash
 python test_fuzzy_sets.py --target user1_health_l1.txt
